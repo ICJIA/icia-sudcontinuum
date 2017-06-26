@@ -236,25 +236,33 @@ export default {
   mounted() {
 
 
-    $('.pop-intro').click(function (e) {
+    // $('.pop-intro').click(function (e) {
+    //
+    //   e.preventDefault();
+    // })
+    //
+    //
+    // $('.pop-intro').popover({
+    //   trigger: 'hover',
+    //   placement: 'auto top',
+    //   html: true,
+    //   viewport: '#section-0',
+    //   title: '<strong>REFERENCE</strong>',
+    //   content: function getFootnote() {
+    //     var el = $(this).attr('href')
+    //     //console.log('Hover el: ', el)
+    //     //console.log('test: ',$(el).text())
+    //     return $(el).text()
+    //   }
+    // });
 
-      e.preventDefault();
-    })
-
-
-    $('.pop-intro').popover({
-      trigger: 'hover',
-      placement: 'auto top',
-      html: true,
-      viewport: '#section-0',
-      title: '<strong>REFERENCE</strong>',
-      content: function getFootnote() {
+    $('.pop-intro').webuiPopover(
+      {title:'REFERENCE',content:function getFootnote() {
         var el = $(this).attr('href')
-        //console.log('Hover el: ', el)
-        //console.log('test: ',$(el).text())
-        return $(el).text()
-      }
-    });
+    //     //console.log('Hover el: ', el)
+    //     //console.log('test: ',$(el).text())
+        return $(el).html()
+      }});
 
 
   }
@@ -338,6 +346,12 @@ thead tr th {font-weight: 900}
 .header h3 {font-weight: 900; text-transform: uppercase; font-size: 46px}
 .header h4 {font-weight: 400; color: #444}
 
-
+.webui-popover .webui-popover-content {
+    padding: 9px 14px;
+    overflow: auto;
+    display: block;
+    max-width: 300px;
+    font-size: 14px;
+}
 
 </style>

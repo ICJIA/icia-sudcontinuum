@@ -1,5 +1,6 @@
 // see http://vuejs-templates.github.io/webpack for documentation.
 var path = require('path')
+var moment = require('moment-timezone')
 
 module.exports = {
   build: {
@@ -19,7 +20,11 @@ module.exports = {
     // View the bundle analyzer report after build finishes:
     // `npm run build --report`
     // Set to `true` or `false` to always turn it on or off
-    bundleAnalyzerReport: process.env.npm_config_report
+    bundleAnalyzerReport: process.env.npm_config_report,
+    bannerDate: moment().tz("America/Chicago").format("dddd, MMMM Do YYYY, h:mm:ss a"),
+   bannerGit: "https://github.com/ICJIA/pwa-sud01",
+   bannerTitle: "ICJIA Promising Practices Continuum",
+   bannerContact: "christopher.schweda@illinois.gov",
   },
   dev: {
     env: require('./dev.env'),

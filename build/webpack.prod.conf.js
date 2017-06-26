@@ -55,8 +55,13 @@ var webpackConfig = merge(baseWebpackConfig, {
       filename: config.build.index,
       template: 'index.html',
       inject: true,
+      bannerDate: config.build.bannerDate,
+        bannerGit: config.build.bannerGit,
+        bannerTitle: config.build.bannerTitle,
+        bannerContact: config.build.bannerContact,
+        googleAnalytics: true,
       minify: {
-        removeComments: true,
+        removeComments: false,
         collapseWhitespace: true,
         removeAttributeQuotes: true
         // more options:
