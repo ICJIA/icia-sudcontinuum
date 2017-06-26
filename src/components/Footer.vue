@@ -7,7 +7,7 @@
               <a href="http://www.icjia.state.il.us">Illinois Criminal Justice Information Authority</a>
             &nbsp;&nbsp;|&nbsp;&nbsp;
             <i class="fa fa-github" aria-hidden="true"></i>
-                &nbsp;&nbsp;<a href="https://github.com/ICJIA/icjia-continuum">View on GitHub</a>
+                &nbsp;&nbsp;<a href="https://github.com/ICJIA/pwa-sudcontinuum">View on GitHub</a>
               </div>
 
 

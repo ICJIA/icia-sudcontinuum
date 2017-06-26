@@ -257,7 +257,7 @@ export default {
     // });
 
     $('.pop-intro').webuiPopover(
-      {title:'REFERENCE',content:function getFootnote() {
+      {title:'REFERENCE', animation:'pop', content:function getFootnote() {
         var el = $(this).attr('href')
     //     //console.log('Hover el: ', el)
     //     //console.log('test: ',$(el).text())
