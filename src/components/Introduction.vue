@@ -236,25 +236,25 @@ export default {
   mounted() {
 
 
-    // $('.pop-intro').click(function (e) {
-    //
-    //   e.preventDefault();
-    // })
-    //
-    //
-    // $('.pop-intro').popover({
-    //   trigger: 'hover',
-    //   placement: 'auto top',
-    //   html: true,
-    //   viewport: '#section-0',
-    //   title: '<strong>REFERENCE</strong>',
-    //   content: function getFootnote() {
-    //     var el = $(this).attr('href')
-    //     //console.log('Hover el: ', el)
-    //     //console.log('test: ',$(el).text())
-    //     return $(el).text()
-    //   }
-    // });
+    $('.pop-intro').click(function (e) {
+
+      e.preventDefault();
+    })
+
+
+    $('.pop-intro').popover({
+      trigger: 'hover',
+      placement: 'auto top',
+      html: true,
+      viewport: '#section-0',
+      title: '<strong>REFERENCE</strong>',
+      content: function getFootnote() {
+        var el = $(this).attr('href')
+        //console.log('Hover el: ', el)
+        //console.log('test: ',$(el).text())
+        return $(el).text()
+      }
+    });
 
 
   }
@@ -266,13 +266,13 @@ a {font-weight: 700; color: #888}
 a {
    outline: 0 !important;
 }
-/*a[class="pop-intro"] {
+a[class="pop-intro"] {
     position: relative; top: -0.4em; font-size: 80%;
     color: #444;
     outline:0 !important;
     border:none !important;
     -moz-outline-style: none !important;
-}*/
+}
 
 
 a:active,
