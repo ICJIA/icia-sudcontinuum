@@ -2,10 +2,10 @@
 
 <div>
 
-    <!-- <div id="outdated"></div>
+    <div id="outdated"></div>
 
 
-
+<!-- 
 <transition name="fade">
                       <router-view class="view"></router-view>
                       </transition>
@@ -16,7 +16,7 @@
              <router-view class="view"></router-view>
 
 
-<my-footer /> 
+<my-footer />
 
 
 
