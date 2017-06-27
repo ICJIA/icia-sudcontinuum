@@ -25,20 +25,19 @@
 
 
     const description = `There are currently an estimated 2.3 million individuals in U.S. prisons and jails, with 1.5 million meeting DSM-IV medical criteria for addiction. Further, approximately 70 percent of state and 64 percent of federal inmates reported regular drug use prior to imprisonment; about 25 percent of violent offenders in state prisons committed their offenses under the influence of drugs`
-    const title = titleCase("HOME")
-    const created = moment('2017-03-25')
-    const type = 'page'
-    const status = 'live'
+    const title = titleCase("REDUCING SUBSTANCE USE DISORDERS AND RELATED OFFENDING")
+
 
     export default {
         name: 'Home',
-        pageData: {
-            created,
-            description,
-            title,
-            type,
-            status
+        
+        metaInfo: {
+          title: title,
+          meta: [
+            { name: 'description', content: stripTags(description) }
+          ]
         },
+
         mounted() {
 
 
@@ -85,14 +84,7 @@
 
         },
 
-        metaInfo: {
-            title: title,
-            meta: [{
-                vmid: 'description',
-                name: 'description',
-                content: stripTags(description)
-            }]
-        },
+
         components: {
 
             Introduction,
@@ -124,6 +116,6 @@
       cursor: pointer;
   }
 
-  
+
 
 </style>

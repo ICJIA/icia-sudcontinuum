@@ -29,7 +29,6 @@ npm run build --report
 - [Vue-Router](https://github.com/vuejs/vue-router)
 - [Webpack](https://webpack.js.org/)
 - [Vue Webpack PWA template](https://github.com/vuejs-templates/webpack)
-<!-- - [prerender-spa-plugin](https://github.com/chrisvfritz/prerender-spa-plugin) -->
 - [webpack-bundle-analyzer](https://github.com/th0r/webpack-bundle-analyzer)
 
 ## Live Site

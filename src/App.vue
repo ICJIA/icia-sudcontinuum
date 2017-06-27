@@ -5,7 +5,7 @@
     <div id="outdated"></div>
 
 
-<!-- 
+<!--
 <transition name="fade">
                       <router-view class="view"></router-view>
                       </transition>
@@ -33,6 +33,12 @@ export default {
     name: 'app',
     created: function() {
         //console.log(this.$route.path)
+    },
+    metaInfo: {
+      // if no subcomponents specify a metaInfo.title, this title will be used
+      title: 'ICJIA',
+      // all titles will be injected into this template
+      titleTemplate: 'ICJIA | %s'
     },
 
     mounted: function() {
