@@ -40,6 +40,8 @@
               </ul>
             </li>
 
+            <li class="hidden-md hidden-lg"><a href="javascript:history.go(0)"><i class="fa fa-refresh" aria-hidden="true"></i></a></li>
+
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
