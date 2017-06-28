@@ -1,14 +1,12 @@
 <template lang="html">
-  <section style="margin-top: 4px;" id="section-additional-resources">
-    <div class="container-fluid">
+  <section id="section-additional-resources">
+    <div class="container-fluid section-padding">
   <div class="row">
   	<div class="col-md-12 text-center">
       <h1 class="head-splash" style="">Additional Resources</h1>
   	</div>
   </div>
-</div>
 
-    <div class="container-fluid">
 
 
 

@@ -15,11 +15,11 @@
 
 // @import "../../node_modules/hamburgers/dist/hamburgers.min.css";
 
-/* --------------------------------
+/* ------------------------------------------------------------
 
-Primary style
+Main styles
 
--------------------------------- */
+-------------------------------------------------------------- */
 
 html * {
 	-webkit-font-smoothing: antialiased;
@@ -45,6 +45,26 @@ a {
 	font-family: $body-font;
 }
 
+a {font-weight: 700;}
+a {
+   outline: 0 !important;
+}
+
+a.light {color: #eee}
+
+a:active,
+a:focus,
+a:visited {
+	text-decoration: none;
+	outline:0 !important;
+	border:none !important;
+	-moz-outline-style: none !important;
+}
+
+
+
+
+
 img {
 	max-width: 100%;
 }
@@ -55,49 +75,41 @@ h1, h2, h4 {
 	text-transform: uppercase;
 }
 
-a {font-weight: 700; color: #888}
-a {
-   outline: 0 !important;
-}
-
-a.light {color: #eee}
 
 
-a.pop-intro {
-    position: relative; top: -0.4em; font-size: 70%;
-    color: #444;
-    outline:0 !important;
-    border:none !important;
-    -moz-outline-style: none !important;
-}
+/* ------------------------------------------------------------
 
-a.pop-intro.light {
+Sections
 
-    color: #ccc;
+-------------------------------------------------------------- */
+.section-padding {padding: 20px 40px 80px 40px}
 
-}
 
 #section-0 {background: $section-0; }
-#section-1 {background: $section-1; margin-top: 3px;}
-#section-2 {background: $section-2; margin-top: 3px; }
-#section-3 {background: $section-3; margin-top: 3px; }
-#section-4 {background: $section-2; margin-top: 3px;}
-#section-5 {background: $section-3; margin-top: 3px; }
-#section-references {padding: 0 30px 0px 30px; }
+#section-1 {background: $section-1; margin-top: 5px;}
 
-.footnotes {margin-top: 50px; font-size: 14px;}
-.footnotes li {margin-bottom: 10px;}
+#section-references {padding: 0 30px 0px 30px;  margin-top: 5px}
+
+.footnotes {margin-top: 50px; font-size: 14px; line-height: 18px;}
+.footnotes li {margin-bottom: 15px;}
 
 section#section-things-to-consider {
-		background: $things-to-consider;
-		padding: 10px 10px 50px 10px;
+		background: $section-3;
+		margin-top: 5px;
 		color: $font-light;
 }
 
 section#section-additional-resources {
-		background: $additional-resources;
+		background: $section-2;
 		color: $font-light;
-		padding: 10px 10px 50px 10px;
+		margin-top: 5px;
+
+}
+
+section#section-references {
+		background: $references;
+		color: $font-dark;
+		margin-top: 5px;
 
 }
 
@@ -107,22 +119,60 @@ section#section-additional-resources {
 		padding-top: 30px;
 		padding-bottom: 12px;
 		text-transform: uppercase;
-		font-size: 36px;
+		font-size: 60px;
+		font-weight: 900;
 		color: #fff;
 
 
 	}
 
-	a:active,
-	a:focus,
-	a:visited {
-	  text-decoration: none;
-	  outline:0 !important;
-	  border:none !important;
-	  -moz-outline-style: none !important;
+
+
+
+	.head-splash {font-family: 'Lato', sans-serif; font-weight: 900}
+
+	/* Extra small */
+	@media only screen and (max-width : 480px) {
+
+		.head-splash {font-size: 45px; line-height: 45px; margin-top: 30px; margin-bottom: 30px; }
+		.head-splash-sub {font-size: 30px; line-height: 30px;margin-top: 40px; margin-bottom: 30px; }
+		#full-title {display: none}
+		.navbar-brand {font-size: 14px;}
+		.section-title {font-size: 45px;}
+
 	}
 
-	.intro-padding {padding-left: 45px; padding-right: 45px}
+	@media only screen and (min-width : 480px) {
+
+		.head-splash {font-size: 45px; line-height: 45px; margin-top: 30px; margin-bottom: 30px; }
+		.head-splash-sub {font-size: 30px; line-height: 30px;margin-top: 40px; margin-bottom: 30px; }
+		.section-title {font-size: 45px;}
+	}
+
+	/* Small */
+	@media only screen and (min-width : 768px) {
+
+		.head-splash {font-size: 45px; line-height: 45px; margin-top: 30px; margin-bottom: 30px; }
+		.head-splash-sub {font-size: 30px; line-height: 30px;margin-top: 40px; margin-bottom: 30px; }
+		.section-title {font-size: 45px;}
+
+	}
+
+	/* Medium */
+	@media only screen and (min-width : 992px) {
+
+		.head-splash {font-size: 60px; line-height: 60px;margin-top: 30px; margin-bottom: 40px; }
+		.head-splash-sub {font-size: 40px; line-height: 40px;margin-top: 50px; margin-bottom: 40px; }
+		.section-title {font-size: 60px;}
+	}
+
+	/* Large */
+	@media only screen and (min-width : 1200px) {
+	.head-splash {font-size: 70px; line-height: 70px;margin-top: 50px; margin-bottom: 50px; }
+	.head-splash-sub {font-size: 45px; line-height: 45px;margin-top: 50px; margin-bottom: 50px; }
+	.section-title {font-size: 70px;}
+	}
+
 
 	ol.things-to-consider {margin-left: 50px;}
 	ol.things-to-consider li {margin-bottom: 15px;}
@@ -130,7 +180,11 @@ section#section-additional-resources {
 
 
 
-// Show scrollbars on modal body.
+	/* ------------------------------------------------------------
+
+	Modal tweaks
+
+	-------------------------------------------------------------- */
 .modal-body {
     max-height: calc(100vh - 212px) !important;
     overflow-y: auto !important;
@@ -143,17 +197,11 @@ section#section-additional-resources {
 }
 
 
+/* ------------------------------------------------------------
 
+Popover Tweaks
 
-
-
-
-
-
-
-
-
-
+-------------------------------------------------------------- */
 
 .webui-popover .webui-popover-content {
     padding: 15px 16px 15px 16px;
@@ -169,57 +217,50 @@ section#section-additional-resources {
 		font-weight: 900;
 }
 
+a.webui-popover-trigger-main {
+    position: relative;
+		top: -0.5em;
+		font-size: 60%;
+    color: #000;
+		background: #eee;
+		padding: 1px 2px 1px 2px;
+		margin-left: 2px;
+		margin-right: 3px;
+    outline:0 !important;
+    border:none !important;
+    -moz-outline-style: none !important;
+}
 
+a.webui-popover-trigger-main.light {
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* Extra small */
-@media only screen and (max-width : 480px) {
-
-	.head-splash {font-size: 45px; line-height: 45px; margin-top: 30px; margin-bottom: 30px; }
-	.head-splash-sub {font-size: 30px; line-height: 30px;margin-top: 40px; margin-bottom: 30px; }
-	#full-title {display: none}
-	.navbar-brand {font-size: 14px;}
+    color: #000;
+		background: #ccc;
 
 }
 
-@media only screen and (min-width : 480px) {
 
-	.head-splash {font-size: 45px; line-height: 45px; margin-top: 30px; margin-bottom: 30px; }
-	.head-splash-sub {font-size: 30px; line-height: 30px;margin-top: 40px; margin-bottom: 30px; }
 
+
+/* ------------------------------------------------------------
+
+Drop caps
+
+-------------------------------------------------------------- */
+
+
+
+.drop {
+color: #0d1a39;
+float: left;
+font-family: Georgia;
+font-size: 75px;
+line-height: 60px;
+padding-top: 4px;
+padding-right: 8px;
+padding-left: 3px;
 }
 
-/* Small */
-@media only screen and (min-width : 768px) {
-
-	.head-splash {font-size: 45px; line-height: 45px; margin-top: 30px; margin-bottom: 30px; }
-	.head-splash-sub {font-size: 30px; line-height: 30px;margin-top: 40px; margin-bottom: 30px; }
-
-
-}
-
-/* Medium */
-@media only screen and (min-width : 992px) {
-
-	.head-splash {font-size: 60px; line-height: 60px;margin-top: 30px; margin-bottom: 40px; }
-	.head-splash-sub {font-size: 40px; line-height: 40px;margin-top: 50px; margin-bottom: 40px; }
-
-}
-
-/* Large */
-@media only screen and (min-width : 1200px) {
-.head-splash {font-size: 70px; line-height: 70px;margin-top: 50px; margin-bottom: 50px; }
-.head-splash-sub {font-size: 45px; line-height: 45px;margin-top: 50px; margin-bottom: 50px; }
+.drop.light {
+color: #eee;
 
 }

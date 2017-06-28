@@ -4,7 +4,7 @@
 
     <introduction />
 
-      <my-body />
+    <my-body />
 
     <things-to-consider />
 
@@ -53,7 +53,7 @@
 
             $(function() {
 
-              $('.pop-intro').webuiPopover(
+              $('.webui-popover-trigger-main').webuiPopover(
                 {title:'REFERENCE', animation:'pop', content:function getFootnote() {
                   var el = $(this).attr('href')
                   return $(el).html()
@@ -61,7 +61,7 @@
 
                 // Vertical timeline Cody House: https://codyhouse.co/gem/vertical-timeline/
                 var timelineBlocks = $('.cd-timeline-block'),
-                    offset = 0.9;
+                    offset = 0.78;
 
                 //hide timeline blocks which are outside the viewport
                 hideBlocks(timelineBlocks, offset);
