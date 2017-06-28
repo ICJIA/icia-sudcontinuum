@@ -32,6 +32,8 @@ npm run build --report
 - [Webpack](https://webpack.js.org/)
 - [Vue-CLI Progressive Web Application template](https://github.com/vuejs-templates/pwa)
 - [webpack-bundle-analyzer](https://github.com/th0r/webpack-bundle-analyzer)
+- [Lodash](https://lodash.com/)
+- [Moment.js](https://momentjs.com/)
 
 
 ## Live Site
