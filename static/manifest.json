@@ -1,6 +1,6 @@
 {
-  "name": "pwa-sud01",
-  "short_name": "pwa-sud01",
+  "name": "ICJIA SUD Continuum",
+  "short_name": "ICJIA SUD Continuum",
   "icons": [
     {
       "src": "/static/icons/android-icon-192x192.png",
