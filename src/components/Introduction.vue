@@ -3,12 +3,18 @@
 
 
 
-    <div id="hero" style="margin-top: -25px;">
+    <div id="hero" style="margin-top: -25px;" class="hidden-sm hidden-xs">
     <div class="header">
       <h3> Reducing Substance Use Disorders and Related Offending</h3>
       <h4> A Continuum of Evidence-Informed Practices in the Criminal Justice System</h4>
     </div>
   </div>
+<div style="" class="hidden-md hidden-lg">
+  <div style="padding-top: 30px; padding-bottom: 30px;" class="header-mobile text-center">
+    <h3> Reducing Substance Use Disorders and Related Offending</h3>
+    <h4> A Continuum of Evidence-Informed Practices in the Criminal Justice System</h4>
+  </div>
+</div>
 
 
     <div class="container-fluid section-padding">
@@ -188,9 +194,21 @@ export default {
 
 }
 
-.header h3, .header h4 {color: #000; opacity: 1; font-family: 'Lato', sans-serif}
-.header h3 {font-weight: 900 !important; text-transform: uppercase !important; font-size: 46px !important}
-.header h4 {font-weight: 400 !important; color: #444 !important}
+.header-mobile{
+  background: #fff;
+  opacity: .7;
+  padding: 20px 15px 10px 15px;
+  text-align:center;
+  width:100%;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-size:36px;
+
+}
+
+.header h3, .header h4, .header-mobile h3, .header-mobile h4 {color: #000; opacity: 1; font-family: 'Lato', sans-serif}
+.header h3, .header-mobile h3 {font-weight: 900 !important; text-transform: uppercase !important; font-size: 46px !important}
+.header h4, .header-mobile h4 {font-weight: 400 !important; color: #444 !important}
 
 
 
