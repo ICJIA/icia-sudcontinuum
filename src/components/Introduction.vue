@@ -12,7 +12,7 @@
 
 
     <div class="container-fluid intro-padding" style="margin-top: 50px;">
-      
+
       <div class="row">
         <div class="col-md-12">
           <!-- content start -->
@@ -164,7 +164,7 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
 #hero{
   background-image:url(/static/img/hero2.jpg);
   background-size:cover;

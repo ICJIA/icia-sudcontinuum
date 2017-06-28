@@ -10,6 +10,9 @@
 
 @import '../../node_modules/animate.css/animate.min.css';
 
+@import "./timeline.scss"; // https://codyhouse.co/gem/vertical-timeline/
+
+
 // @import "../../node_modules/hamburgers/dist/hamburgers.min.css";
 
 /* --------------------------------
@@ -52,554 +55,6 @@ h1, h2, h4 {
 	text-transform: uppercase;
 }
 
-/* --------------------------------
-
-Modules - reusable parts of our design
-
--------------------------------- */
-
-.cd-container { /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
-	width: 90%;
-	max-width: $L; // breakpoints inside partials > _layout.scss
-	margin: 0 auto;
-
-	&::after { /* clearfix */
-		content: '';
-		display: table;
-		clear: both;
-	}
-}
-
-/* --------------------------------
-
-Main components
-
--------------------------------- */
-
-header {
-	// height: 500px;
-	// line-height: 200px;
-	// text-align: center;
-	// padding: 50px 50px 20px 100px;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	background: $header;
-	color: #fff;
-	padding-left: 50px; padding-right: 50px;
-
-
-	h1 {
-		color: $color-3;
-		@include font-size(24px);
-	}
-
-	@include MQ(L) {
-		// height: 500px;
-		// line-height: 400px;
-
-
-		h1 {
-			@include font-size(36px);
-		}
-	}
-}
-
-#section-0 {background: $section-0; }
-#section-1 {background: $section-1; margin-top: 3px;}
-#section-2 {background: $section-2; margin-top: 3px; }
-#section-3 {background: $section-3; margin-top: 3px; }
-#section-4 {background: $section-2; margin-top: 3px;}
-#section-5 {background: $section-3; margin-top: 3px; }
-
-section#section-things-to-consider {
-		background: $things-to-consider;
-		padding: 10px 30px 50px 30px;
-		color: $font-light;
-}
-
-section#section-additional-resources {
-		background: $additional-resources;
-		color: $font-light;
-		padding: 10px 30px 50px 30px;
-
-}
-
-.section-title {
-		font-family: 'Lato', sans-serif;
-		font-weight: 700;
-		padding-top: 30px;
-		padding-bottom: 12px;
-		text-transform: uppercase;
-		font-size: 36px;
-		color: #fff;
-
-
-	}
-
-
-
-#cd-timeline-1, #cd-timeline-2, #cd-timeline-3, #cd-timeline-4, #cd-timeline-5 {
-	position: relative;
-	padding: 3em 0 3em 0;
-	margin: {
-		top: .3em;
-		bottom: 0em;
-	}
-
-	&::before {
-		/* this is the vertical line */
-		content: '';
-		position: absolute;
-		top: 0;
-		left: 18px;
-		height: 100%;
-		width: 4px;
-		background: darken($background, 5%);
-	}
-
-	@include MQ(L) {
-		margin: {
-			top: .3em;
-			bottom: 0em;
-		}
-
-		&::before {
-			left: 50%;
-			margin-left: -2px;
-		}
-	}
-}
-
-.cd-timeline-block {
-	position: relative;
-	margin: 2em 0;
-	@include clearfix;
-
-	&:first-child {
-		margin-top: 0;
-	}
-
-	&:last-child {
-		margin-bottom: 0;
-	}
-
-	@include MQ(L) {
-		margin: 4em 0;
-
-		&:first-child {
-			margin-top: 0;
-		}
-
-		&:last-child {
-			margin-bottom: 0;
-		}
-	}
-}
-
-.cd-timeline-img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 35px;
-	height: 35px;
-	border-radius: 50%;
-	box-shadow: 0 0 0 4px $color-3, inset 0 2px 0 rgba(#000, .08), 0 3px 0 4px rgba(#000, .05) ;
-
-	img {
-		display: block;
-		width: 24px;
-		height: 24px;
-		position: relative;
-		left: 50%;
-		top: 50%;
-		margin-left: -12px;
-		margin-top: -12px;
-	}
-
-	i {
-		display: block;
-
-		position: relative;
-		left: 50%;
-		top: 50%;
-		margin-left: -15px;
-		margin-top: -16px;
-		color: #fff;
-	}
-
-	&.cd-picture {
-		background: $color-4;
-	}
-
-	&.cd-car {
-		background: $color-4;
-	}
-
-	&.cd-child {
-		background: $color-2;
-	}
-
-	&.cd-location {
-		background: $color-5;
-	}
-
-	&.cd-movie {
-		background: $color-5;
-	}
-
-	&.cd-bullhorn {
-		background: $color-5;
-	}
-
-	@include MQ(L) {
-
-		h1.splash-head {color: #666; font-size: 100px; letter-spacing: .0001em; line-height: 105px;margin-top: 50px; margin-bottom:50px;}
-
-		width: 60px;
-		height: 60px;
-		left: 50%;
-		margin-left: -30px;
-
-		/* Force Hardware Acceleration in WebKit */
-		-webkit-transform: translateZ(0);
-		-webkit-backface-visibility: hidden;
-
-		.cssanimations &.is-hidden {
-			visibility: hidden;
-		}
-
-		.cssanimations &.bounce-in {
-			visibility: visible;
-			@include animation(cd-bounce-1 .6s);
-		}
-
-
-
-
-	}
-}
-
-
-
-
-
-
-
-
-
-@include keyframes(cd-bounce-1) {
-	0% {
-		opacity: 0;
-		@include transform(scale(.5));
-	}
-
-	60% {
-		opacity: 1;
-		@include transform(scale(1.2));
-	}
-
-	100% {
-		@include transform(scale(1));
-	}
-}
-
-.cd-timeline-content {
-	position: relative;
-	margin-left: 60px;
-	background: $color-3;
-	@include border-radius;
-	padding: 1em;
-	box-shadow: 0 3px 0 darken($background, 5%);
-	@include clearfix;
-
-	h2 {
-		color: $color-1;
-	}
-
-	p, .cd-read-more, .cd-date {
-		@include font-size(13px);
-	}
-
-	.cd-read-more, .cd-date {
-		display: inline-block;
-	}
-
-	p {
-		margin: 1em 0;
-		line-height: 1.6;
-	}
-
-	.cd-read-more {
-		float: right;
-		// padding: .8em 1em;
-		// background: $link;
-		// color: $color-3;
-		// @include border-radius;
-		//
-		// .no-touch &:hover {
-		// 	background-color: lighten($link, 5%);
-		// }
-	}
-
-	.read-more {
-		float: right;
-
-
-	}
-
-
-
-	.cd-date {
-		float: left;
-		padding: .8em 0;
-		opacity: .7;
-	}
-
-	&::before {
-		content: '';
-		position: absolute;
-		top: 16px;
-		right: 100%;
-		height: 0;
-		width: 0;
-		border: 7px solid transparent;
-		border-right: 7px solid $color-3;
-	}
-
-	@include MQ(M) {
-		h2 {
-			@include font-size(20px);
-		}
-
-		p {
-			@include font-size(16px);
-		}
-
-		.cd-read-more, .cd-date {
-			@include font-size(14px);
-
-		}
-	}
-
-	@include MQ(L) {
-		margin-left: 0;
-		padding: 1.6em;
-		width: 45%;
-
-		&::before {
-			top: 24px;
-			left: 100%;
-			border-color: transparent;
-			border-left-color: $color-3;
-		}
-
-		.cd-read-more {
-			float: left;
-		}
-
-		.cd-date {
-			position: absolute;
-			width: 100%;
-			left: 122%;
-			top: 6px;
-			@include font-size(16px);
-		}
-
-		.cd-timeline-block:nth-child(even) & {
-			float: right;
-
-			&::before {
-				top: 24px;
-				left: auto;
-				right: 100%;
-				border-color: transparent;
-				border-right-color: $color-3;
-			}
-
-			.cd-read-more {
-				float: right;
-			}
-
-			.cd-date {
-				left: auto;
-				right: 122%;
-				text-align: right;
-			}
-		}
-
-		.cssanimations &.is-hidden {
-			visibility: hidden;
-		}
-
-		.cssanimations &.bounce-in {
-			visibility: visible;
-			@include animation(cd-bounce-2 .6s);
-		}
-	}
-}
-
-.cd-container-list {font-size: 16px}
-button.cd-container-read-more {margin-top: 20px !important;}
-
-@include MQ(L) {
-	/* inverse bounce effect on even content blocks */
-	.cssanimations .cd-timeline-block:nth-child(even) .cd-timeline-content.bounce-in {
-		@include animation(cd-bounce-2-inverse .6s);
-	}
-}
-
-@include keyframes(cd-bounce-2) {
-	0% {
-		opacity: 0;
-		@include transform(translateX(-100px));
-	}
-
-	60% {
-		opacity: 1;
-		@include transform(translateX(20px));
-	}
-
-	100% {
-		@include transform(translateX(0));
-	}
-}
-
-@include keyframes(cd-bounce-2-inverse) {
-	0% {
-		opacity: 0;
-		@include transform(translateX(100px));
-	}
-
-	60% {
-		opacity: 1;
-		@include transform(translateX(-20px));
-	}
-
-	100% {
-		@include transform(translateX(0));
-	}
-}
-
-
-
-.hero {
-	height: 500px;
-  background: url('/static/img/hero2.jpg') no-repeat center center;
-  background-size: cover;
-	margin-bottom: 2px;
-
-
-  .intro {
-    // padding: 3rem;
-    position: relative;
-    top: 67%;
-    transform: translateY(-50%);
-
-  }
-
-	.hero-band {padding-right: 30px; padding-bottom: 20px; width: 100%; background: #222; opacity: .6}
-
-  h1 {
-    color: #fff;
-    font-size: 1.5rem;
-    line-height: 1.5em;
-    letter-spacing: -0.025em;
-    font-weight: 400;
-    text-align: center;
-		font-family: 'Oswald', sans-serif;
-  }
-  p {
-    color: #fff;
-    line-height: 1.75em;
-    font-weight: 200;
-    text-align: center;
-    margin-bottom: 2rem;
-		font-family: 'Lato', sans-serif;
-  }
-
-  @media only screen and (min-width: 40.063em) {
-
-    h1 {
-      padding-top: 4.5rem;
-      text-align: right;
-      font-size: 2.5rem;
-			font-family: 'Oswald', sans-serif;
-    }
-    p {
-      text-align: right;
-    }
-  }
-}
-
-
-
-.head-splash {letter-spacing: .0001em; margin-top: 20px; margin-bottom: 20px }
-.head-splash-sub  {border-bottom: 2px solid #eee; padding-bottom: 20px; letter-spacing: .0001em; margin-top: 20px; margin-bottom: 20px; border-bottom: 0px solid #eee; }
-.head-splash-sub.no-rule {}
-/* Extra small */
-@media only screen and (max-width : 480px) {
-
-	.head-splash {font-size: 45px; line-height: 45px; margin-top: 30px; margin-bottom: 30px; }
-	.head-splash-sub {font-size: 30px; line-height: 30px;margin-top: 40px; margin-bottom: 30px; }
-	ul.sidebar-nav {margin-top: 65px !important}
-	#full-title {display: none}
-	.navbar-brand {font-size: 14px;}
-
-}
-
-@media only screen and (min-width : 480px) {
-
-	.head-splash {font-size: 45px; line-height: 45px; margin-top: 30px; margin-bottom: 30px; }
-	.head-splash-sub {font-size: 30px; line-height: 30px;margin-top: 40px; margin-bottom: 30px; }
-	ul.sidebar-nav {margin-top: 65px !important}
-
-
-}
-
-/* Small */
-@media only screen and (min-width : 768px) {
-
-	.head-splash {font-size: 45px; line-height: 45px; margin-top: 30px; margin-bottom: 30px; }
-	.head-splash-sub {font-size: 30px; line-height: 30px;margin-top: 40px; margin-bottom: 30px; }
-	ul.sidebar-nav {margin-top: 15px !important}
-
-
-
-
-
-}
-
-/* Medium */
-@media only screen and (min-width : 992px) {
-
-	.head-splash {font-size: 60px; line-height: 60px;margin-top: 30px; margin-bottom: 40px; }
-	.head-splash-sub {font-size: 40px; line-height: 40px;margin-top: 50px; margin-bottom: 40px; }
-	ul.sidebar-nav {margin-top: 15px !important}
-
-
-}
-
-/* Large */
-@media only screen and (min-width : 1200px) {
-.head-splash {font-size: 70px; line-height: 70px;margin-top: 50px; margin-bottom: 50px; }
-.head-splash-sub {font-size: 45px; line-height: 45px;margin-top: 50px; margin-bottom: 50px; }
-ul.sidebar-nav {margin-top: 15px !important}
-}
-
-
-// Show scrollbars on modal body.
-.modal-body {
-    max-height: calc(100vh - 212px) !important;
-    overflow-y: auto !important;
-}
-
-
-.modal-dialog
-{
-    width: 90% !important; /* your width */
-}
-
-
 a {font-weight: 700; color: #888}
 a {
    outline: 0 !important;
@@ -622,19 +77,74 @@ a.pop-intro.light {
 
 }
 
+#section-0 {background: $section-0; }
+#section-1 {background: $section-1; margin-top: 3px;}
+#section-2 {background: $section-2; margin-top: 3px; }
+#section-3 {background: $section-3; margin-top: 3px; }
+#section-4 {background: $section-2; margin-top: 3px;}
+#section-5 {background: $section-3; margin-top: 3px; }
+#section-references {padding: 0 30px 0px 30px; }
 
+.footnotes {margin-top: 50px; font-size: 14px;}
+.footnotes li {margin-bottom: 10px;}
 
-
-a:active,
-a:focus,
-a:visited {
-  text-decoration: none;
-  outline:0 !important;
-  border:none !important;
-  -moz-outline-style: none !important;
+section#section-things-to-consider {
+		background: $things-to-consider;
+		padding: 10px 10px 50px 10px;
+		color: $font-light;
 }
 
-.intro-padding {padding-left: 45px; padding-right: 45px}
+section#section-additional-resources {
+		background: $additional-resources;
+		color: $font-light;
+		padding: 10px 10px 50px 10px;
+
+}
+
+.section-title {
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		padding-top: 30px;
+		padding-bottom: 12px;
+		text-transform: uppercase;
+		font-size: 36px;
+		color: #fff;
+
+
+	}
+
+	a:active,
+	a:focus,
+	a:visited {
+	  text-decoration: none;
+	  outline:0 !important;
+	  border:none !important;
+	  -moz-outline-style: none !important;
+	}
+
+	.intro-padding {padding-left: 45px; padding-right: 45px}
+
+	ol.things-to-consider {margin-left: 50px;}
+	ol.things-to-consider li {margin-bottom: 15px;}
+	ul.additional-resources {margin-left: 30px;}
+
+
+
+// Show scrollbars on modal body.
+.modal-body {
+    max-height: calc(100vh - 212px) !important;
+    overflow-y: auto !important;
+}
+
+
+.modal-dialog
+{
+    width: 90% !important; /* your width */
+}
+
+
+
+
 
 
 
@@ -659,6 +169,57 @@ a:visited {
 		font-weight: 900;
 }
 
-ol.things-to-consider {margin-left: 50px;}
-ol.things-to-consider li {margin-bottom: 15px;}
-ul.additional-resources {margin-left: 30px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small */
+@media only screen and (max-width : 480px) {
+
+	.head-splash {font-size: 45px; line-height: 45px; margin-top: 30px; margin-bottom: 30px; }
+	.head-splash-sub {font-size: 30px; line-height: 30px;margin-top: 40px; margin-bottom: 30px; }
+	#full-title {display: none}
+	.navbar-brand {font-size: 14px;}
+
+}
+
+@media only screen and (min-width : 480px) {
+
+	.head-splash {font-size: 45px; line-height: 45px; margin-top: 30px; margin-bottom: 30px; }
+	.head-splash-sub {font-size: 30px; line-height: 30px;margin-top: 40px; margin-bottom: 30px; }
+
+}
+
+/* Small */
+@media only screen and (min-width : 768px) {
+
+	.head-splash {font-size: 45px; line-height: 45px; margin-top: 30px; margin-bottom: 30px; }
+	.head-splash-sub {font-size: 30px; line-height: 30px;margin-top: 40px; margin-bottom: 30px; }
+
+
+}
+
+/* Medium */
+@media only screen and (min-width : 992px) {
+
+	.head-splash {font-size: 60px; line-height: 60px;margin-top: 30px; margin-bottom: 40px; }
+	.head-splash-sub {font-size: 40px; line-height: 40px;margin-top: 50px; margin-bottom: 40px; }
+
+}
+
+/* Large */
+@media only screen and (min-width : 1200px) {
+.head-splash {font-size: 70px; line-height: 70px;margin-top: 50px; margin-bottom: 50px; }
+.head-splash-sub {font-size: 45px; line-height: 45px;margin-top: 50px; margin-bottom: 50px; }
+
+}

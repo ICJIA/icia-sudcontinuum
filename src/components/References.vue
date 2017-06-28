@@ -25,6 +25,5 @@ export default {
 </script>
 
 <style lang="css">
-.footnotes {margin-top: 50px; padding: 0 30px 0px 30px; font-size: 14px;}
-.footnotes li {margin-bottom: 10px;}
+
 </style>
