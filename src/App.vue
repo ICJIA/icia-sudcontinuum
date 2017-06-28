@@ -1,10 +1,10 @@
 <template>
 
-<div>
+<div id="page-top">
 
     <div id="outdated"></div>
 
-
+<navbar />
 <!--
 <transition name="fade">
                       <router-view class="view"></router-view>
@@ -25,6 +25,7 @@
 
 <script>
 
+import Navbar from '@/components/Navbar'
 import MyFooter from '@/components/Footer'
 
 
@@ -66,6 +67,7 @@ export default {
     components: {
 
         MyFooter,
+        Navbar
     }
 }
 </script>
