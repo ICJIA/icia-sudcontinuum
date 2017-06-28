@@ -20,6 +20,9 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 
+<!-- Markdown snippet -->
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ICJIA/icia-sudcontinuum)
+
 ```
 
 ## Main dependencies
@@ -28,7 +31,7 @@ npm run build --report
 - [Vue](https://vuejs.org/)
 - [Vue-Router](https://github.com/vuejs/vue-router)
 - [Webpack](https://webpack.js.org/)
-- [Vue Webpack PWA template](https://github.com/vuejs-templates/webpack)
+- [Vue Webpack Progressive Web Application template](https://github.com/vuejs-templates/webpack)
 - [webpack-bundle-analyzer](https://github.com/th0r/webpack-bundle-analyzer)
 
 ## Live Site
