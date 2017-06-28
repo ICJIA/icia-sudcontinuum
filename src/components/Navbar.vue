@@ -15,7 +15,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="javascript:history.go(0)" class="navbar-brand">REDUCING SUBSTANCE USE DISORDERS<span class="hidden-xs hidden-sm"> AND RELATED OFFENDING</span></a>
+          <a class="navbar-brand">REDUCING SUBSTANCE USE DISORDERS<span class="hidden-xs hidden-sm"> AND RELATED OFFENDING</span></a>
         </div>
 
 
@@ -61,6 +61,11 @@ export default {
   mounted() {
 
       $(function() {
+
+
+        $(".navbar-brand").click(function() {
+          window.location.reload();
+        });
         // Select all links with hashes
 $('a.scroll')
   // Remove links that don't actually link to anything
