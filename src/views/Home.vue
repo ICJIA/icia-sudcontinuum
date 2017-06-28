@@ -6,7 +6,11 @@
 
       <my-body />
 
-    <conclusion />
+    <things-to-consider />
+
+    <additional-resources />
+
+    <references />
 
 </div>
 
@@ -20,7 +24,9 @@
 
     import Introduction from '@/components/Introduction'
     import MyBody from '@/components/Body'
-    import Conclusion from '@/components/Conclusion'
+    import ThingsToConsider from '@/components/ThingsToConsider'
+    import AdditionalResources from '@/components/AdditionalResources'
+    import References from '@/components/References'
     import moment from 'moment'
 
 
@@ -30,7 +36,7 @@
 
     export default {
         name: 'Home',
-        
+
         metaInfo: {
           title: title,
           meta: [
@@ -47,7 +53,11 @@
 
             $(function() {
 
-
+              $('.pop-intro').webuiPopover(
+                {title:'REFERENCE', animation:'pop', content:function getFootnote() {
+                  var el = $(this).attr('href')
+                  return $(el).html()
+                }});
 
                 // Vertical timeline Cody House: https://codyhouse.co/gem/vertical-timeline/
                 var timelineBlocks = $('.cd-timeline-block'),
@@ -89,7 +99,9 @@
 
             Introduction,
             MyBody,
-            Conclusion
+            ThingsToConsider,
+            AdditionalResources,
+            References
 
         },
         data() {

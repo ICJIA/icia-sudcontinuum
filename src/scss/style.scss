@@ -111,6 +111,31 @@ header {
 #section-4 {background: $section-2; margin-top: 3px;}
 #section-5 {background: $section-3; margin-top: 3px; }
 
+section#section-things-to-consider {
+		background: $things-to-consider;
+		padding: 10px 30px 50px 30px;
+		color: $font-light;
+}
+
+section#section-additional-resources {
+		background: $additional-resources;
+		color: $font-light;
+		padding: 10px 30px 50px 30px;
+
+}
+
+.section-title {
+		font-family: 'Lato', sans-serif;
+		font-weight: 700;
+		padding-top: 30px;
+		padding-bottom: 12px;
+		text-transform: uppercase;
+		font-size: 36px;
+		color: #fff;
+
+
+	}
+
 
 
 #cd-timeline-1, #cd-timeline-2, #cd-timeline-3, #cd-timeline-4, #cd-timeline-5 {
@@ -455,36 +480,6 @@ button.cd-container-read-more {margin-top: 20px !important;}
 	}
 }
 
-section#conclusion {
-		background: $conclusion;
-		padding: 10px 30px 50px 30px;
-		color: $font-light;
-}
-
-// section#section-2 h1 {
-// 	text-align: center;
-// 	margin-bottom: 90px;
-// 	font-size: 100px;
-//
-// }
-
-.section-title {
-		font-family: 'Lato', sans-serif;
-		font-weight: 700;
-		padding-top: 30px;
-		padding-bottom: 12px;
-		text-transform: uppercase;
-		font-size: 36px;
-		color: #fff;
-
-
-	}
-
-	.section-arrow {
-
-
-
-		}
 
 
 .hero {
@@ -604,6 +599,66 @@ ul.sidebar-nav {margin-top: 15px !important}
     width: 90% !important; /* your width */
 }
 
-.footnotes {padding-left: 20px; padding-right: 20px;}
-.footnotes ol li {font-size: 10px;}
-.footnotes ol li {margin-bottom: 10px}
+
+a {font-weight: 700; color: #888}
+a {
+   outline: 0 !important;
+}
+
+a.light {color: #eee}
+
+
+a.pop-intro {
+    position: relative; top: -0.4em; font-size: 70%;
+    color: #444;
+    outline:0 !important;
+    border:none !important;
+    -moz-outline-style: none !important;
+}
+
+a.pop-intro.light {
+
+    color: #ccc;
+
+}
+
+
+
+
+a:active,
+a:focus,
+a:visited {
+  text-decoration: none;
+  outline:0 !important;
+  border:none !important;
+  -moz-outline-style: none !important;
+}
+
+.intro-padding {padding-left: 45px; padding-right: 45px}
+
+
+
+
+
+
+
+
+
+
+.webui-popover .webui-popover-content {
+    padding: 15px 16px 15px 16px;
+    overflow: auto;
+    display: block;
+    max-width: 300px;
+    font-size: 14px;
+		line-height: 19px;
+}
+
+.webui-popover .webui-popover-title {
+    background: #eee;
+		font-weight: 900;
+}
+
+ol.things-to-consider {margin-left: 50px;}
+ol.things-to-consider li {margin-bottom: 15px;}
+ul.additional-resources {margin-left: 30px;}
