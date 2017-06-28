@@ -36,3 +36,5 @@ npm run build --report
 - [https://sudcontinuum.icjia.cloud/](https://sudcontinuum.icjia.cloud/)
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ICJIA/icia-sudcontinuum)
+
+[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/ICJIA/icia-sudcontinuum)
