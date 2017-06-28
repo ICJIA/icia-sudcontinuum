@@ -20,8 +20,6 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 
-<!-- Markdown snippet -->
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ICJIA/icia-sudcontinuum)
 
 ```
 
@@ -36,3 +34,5 @@ npm run build --report
 
 ## Live Site
 - [https://sudcontinuum.icjia.cloud/](https://sudcontinuum.icjia.cloud/)
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ICJIA/icia-sudcontinuum)
