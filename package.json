@@ -1,7 +1,7 @@
 {
-  "name": "pwa-sudcontinuum",
+  "name": "icjia-sudcontinuum",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "Substance Use Disorder Continuum",
   "author": "cschweda <cschweda@gmail.com>",
   "private": true,
   "scripts": {

@@ -3,7 +3,7 @@
   <section id="section-1">
 	<div class="text-center">
 		<div class="section-title">
-			The Intercepts
+			Intercepts
 		</div>
 		<div style="margin-bottom: 50px;"><i class="fa fa-chevron-down fa-3x" style="color: #ccc; margin-top: 10px;" aria-hidden="true"></i></div>
 	</div>

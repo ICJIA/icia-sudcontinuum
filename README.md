@@ -24,13 +24,15 @@ npm run build --report
 ```
 
 ## Main dependencies
-- [Bootstrap 3.3.7](https://v4-alpha.getbootstrap.com/getting-started/introduction/)
+- [Bootstrap 3.3.7](http://getbootstrap.com/)
 - [jQuery](https://jquery.com/)
+- [webui-popover](https://github.com/sandywalker/webui-popover)
 - [Vue](https://vuejs.org/)
 - [Vue-Router](https://github.com/vuejs/vue-router)
 - [Webpack](https://webpack.js.org/)
-- [Vue Webpack Progressive Web Application template](https://github.com/vuejs-templates/webpack)
+- [Vue-CLI Progressive Web Application template](https://github.com/vuejs-templates/pwa)
 - [webpack-bundle-analyzer](https://github.com/th0r/webpack-bundle-analyzer)
+
 
 ## Live Site
 - [https://sudcontinuum.icjia.cloud/](https://sudcontinuum.icjia.cloud/)
