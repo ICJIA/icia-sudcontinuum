@@ -50,46 +50,46 @@
           $(function() {
 
 
-var $window = $(window),
-    win_height_padded = $window.height() * 1.1,
-    isTouch = Modernizr.touch;
-
-if (isTouch) {
-    $('.revealOnScroll').addClass('animated');
-}
-
-$window.on('scroll', revealOnScroll);
-
-function revealOnScroll() {
-    var scrolled = $window.scrollTop(),
-        win_height_padded = $window.height() * 1.1;
-
-    // Show
-    $(".revealOnScroll:not(.animated)").each(function() {
-        var $this = $(this),
-            offsetTop = $this.offset().top -20;
-
-        if (scrolled + win_height_padded > offsetTop) {
-            if ($this.data('timeout')) {
-                window.setTimeout(function() {
-                    $this.addClass('animated ' + $this.data('animation'));
-                }, parseInt($this.data('timeout'), 10));
-            } else {
-                $this.addClass('animated ' + $this.data('animation'));
-            }
-        }
-    });
-    // Hide
-    $(".revealOnScroll.animated").each(function(index) {
-        var $this = $(this),
-            offsetTop = $this.offset().top;
-        if (scrolled + win_height_padded < offsetTop) {
-            $(this).removeClass('animated fadeInLeftBig fadeInRightBig')
-        }
-    });
-}
-
-revealOnScroll();
+// var $window = $(window),
+//     win_height_padded = $window.height() * 1.1,
+//     isTouch = Modernizr.touch;
+//
+// if (isTouch) {
+//     $('.revealOnScroll').addClass('animated');
+// }
+//
+// $window.on('scroll', revealOnScroll);
+//
+// function revealOnScroll() {
+//     var scrolled = $window.scrollTop(),
+//         win_height_padded = $window.height() * 1.1;
+//
+//     // Show
+//     $(".revealOnScroll:not(.animated)").each(function() {
+//         var $this = $(this),
+//             offsetTop = $this.offset().top -20;
+//
+//         if (scrolled + win_height_padded > offsetTop) {
+//             if ($this.data('timeout')) {
+//                 window.setTimeout(function() {
+//                     $this.addClass('animated ' + $this.data('animation'));
+//                 }, parseInt($this.data('timeout'), 10));
+//             } else {
+//                 $this.addClass('animated ' + $this.data('animation'));
+//             }
+//         }
+//     });
+//     // Hide
+//     $(".revealOnScroll.animated").each(function(index) {
+//         var $this = $(this),
+//             offsetTop = $this.offset().top;
+//         if (scrolled + win_height_padded < offsetTop) {
+//             $(this).removeClass('animated fadeInLeftBig fadeInRightBig')
+//         }
+//     });
+// }
+//
+// revealOnScroll();
 
 
 
@@ -111,16 +111,20 @@ hideBlocks(timelineBlocks, offset);
 
 //on scolling, show/animate timeline blocks when enter the viewport
 $(window).on('scroll', function() {
+
     (!window.requestAnimationFrame) ?
     setTimeout(function() {
         showBlocks(timelineBlocks, offset);
+
     }, 100): window.requestAnimationFrame(function() {
         showBlocks(timelineBlocks, offset);
     });
 });
 
 function hideBlocks(blocks, offset) {
+
     blocks.each(function() {
+
         ($(this).offset().top > $(window).scrollTop() + $(window).height() * offset) && $(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden').removeClass('animated').removeClass('fadeIn');
     });
 }
