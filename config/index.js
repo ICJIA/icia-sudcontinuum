@@ -14,7 +14,7 @@ module.exports = {
     // Surge or Netlify already gzip all static assets for you.
     // Before setting to `true`, make sure to:
     // npm install --save-dev compression-webpack-plugin
-    productionGzip: false,
+    productionGzip: true,
     productionGzipExtensions: ['js', 'css'],
     bannerDate: moment().tz("America/Chicago").format("dddd, MMMM Do YYYY, h:mm:ss a"),
    bannerGit: "https://github.com/ICJIA/icjia-sudcontinuum",
