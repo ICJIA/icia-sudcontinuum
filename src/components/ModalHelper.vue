@@ -39,30 +39,11 @@ export default {
   mounted() {
 
     $(function() {
-
-      $('.pop-modal1, .pop-modal2, .pop-modal3').click(function (e) {
-        // Prevent footnote click in modal
-        e.preventDefault();
-      })
-
-      // Display reference in Bootstrap popover
-      $('.pop-modal1, .pop-modal2, .pop-modal3').popover({
-        trigger: 'hover',
-        placement: 'auto top',
-        html: true,
-        title: '<strong>REFERENCE</strong>',
-        content: function getFootnote() {
+      $('.webui-popover-trigger-i0').webuiPopover(
+        {title:'REFERENCE', animation:'pop', content:function getFootnote() {
           var el = $(this).attr('href')
-          //console.log('Hover el: ', el)
-          //console.log('test: ',$(el).text())
-          return $(el).text()
-        }
-      });
-
-
-
-
-
+          return $(el).html()
+        }});
 
 });
 
@@ -82,11 +63,6 @@ button.close {color: #000 !important}
 .modal-header {background: #aaa; color: #fff}
 .modal-title {font-family: 'Lato', sans-serif; font-weight: 700; text-transform: uppercase;}
 button.btn:hover {cursor: pointer; cursor: hand;}
-.pop-modal1,
-.pop-modal2,
-.pop-modal3,
-.pop-modal4,
-.pop-modal5 {position: relative; top: -0.5em; font-size: 80%;}
 
 
 </style>

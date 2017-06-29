@@ -3,7 +3,9 @@
     <div class="container-fluid section-padding">
   <div class="row">
   	<div class="col-md-12 text-center">
-      <h1 class="head-splash" style="">Things to Consider</h1>
+      <div class="section-title">
+  			Things to Consider
+  		</div>
   	</div>
   </div>
 

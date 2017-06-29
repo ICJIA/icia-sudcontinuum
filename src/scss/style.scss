@@ -69,9 +69,9 @@ img {
 	max-width: 100%;
 }
 
-h1, h2, h4 {
+h1, h2, h3, h4 {
 	font-family: $header-font;
-	font-weight: bold;
+	font-weight: 900;
 	text-transform: uppercase;
 }
 
@@ -115,15 +115,20 @@ section#section-references {
 
 .section-title {
 		font-family: 'Lato', sans-serif;
-		font-weight: 700;
-		padding-top: 30px;
+		font-weight: 900;
+		padding-top: 40px;
 		padding-bottom: 12px;
 		text-transform: uppercase;
 		font-size: 60px;
 		font-weight: 900;
 		color: #fff;
+		margin-bottom: 50px;
 
 
+	}
+
+	.section-title.dark {
+		color: #333;
 	}
 
 
@@ -217,7 +222,8 @@ Popover Tweaks
 		font-weight: 900;
 }
 
-a.webui-popover-trigger-main {
+a.webui-popover-trigger-main,
+a.webui-popover-trigger-i0 {
     position: relative;
 		top: -0.5em;
 		font-size: 60%;
@@ -238,7 +244,8 @@ a.webui-popover-trigger-main.light {
 
 }
 
-a.webui-popover-trigger-main:hover {background: #999; color: #fff; text-decoration: none}
+a.webui-popover-trigger-main:hover,
+a.webui-popover-trigger-i0:hover {background: #999; color: #fff; text-decoration: none}
 a.webui-popover-trigger-main.light:hover {background: #999; color: #fff; text-decoration: none}
 
 

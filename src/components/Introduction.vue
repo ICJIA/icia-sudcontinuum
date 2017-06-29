@@ -38,11 +38,10 @@
 
 <p>ICJIA researchers developed this continuum to share evidence-informed practices for addressing SUDs and substance misuse to guide local-level assessment, planning, and implementation efforts around SUD prevention and intervention. These practices range from early prevention to services to support successful reintegration back into the community following time spent in jail or prison. Communities are encouraged to use this continuum to examine the gaps and needs that exist in their areas and explore the options available to address those gaps. </p>
 
-<hr>
 
 
 
-<h2 id="defining-evidence-based-practices14"><strong>Defining Evidence-Based Practices</strong><a href="#fn14" id="fnref14" title="See footnote" class="webui-popover-trigger-main">14</a></h2>
+<h2 id="defining-evidence-based-practices14" class="intro-sub">Defining Evidence-Based Practices<a href="#fn14" id="fnref14" title="See footnote" class="webui-popover-trigger-main">14</a></h2>
 
 <p><strong>Not Evidence-Informed or Evidence-Based or Anecdotal</strong> <br>
 <strong><em>No Effect or Unknown Effect</em></strong> <br>
@@ -56,11 +55,8 @@ There is some evidence, through the use of reliable, replicable, and generalizab
 <strong><em>Effective</em></strong> <br>
 There is strong evidence, through the use of reliable, replicable, and generalizable research, indicating the programs achieve what they are set out to achieve. </p>
 
-<hr>
 
-
-
-<h3 id="evidence-based-risk-and-protective-factors"><strong>Evidence-Based Risk and Protective Factors</strong></h3>
+<h3 id="evidence-based-risk-and-protective-factors" class="intro-sub"><strong>Evidence-Based Risk and Protective Factors</strong></h3>
 
 <p>Prevention of substance use requires an understanding of factors that may decrease the potential for substance use (protective factors) and factors that may put individuals at risk, or increase potential for substance use (risk factors). Evidence-informed prevention programs can target risk factors and enhance protective factors.<a href="#fn15" id="fnref15" title="See footnote" class="webui-popover-trigger-main">15</a>  There are five, evidence-based ecological domains that have been shown to be the most predictive of delinquency, including substance use: individual, family, peer, school, and community. </p>
 
@@ -210,6 +206,7 @@ export default {
 .header h3, .header-mobile h3 {font-weight: 900 !important; text-transform: uppercase !important; font-size: 46px !important}
 .header h4, .header-mobile h4 {font-weight: 400 !important; color: #444 !important}
 
+.intro-sub {font-size: 28px; margin-top: 50px; }
 
 
 </style>
