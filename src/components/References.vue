@@ -4,7 +4,7 @@
     <div class="container-fluid section-padding">
       <div class="row">
         <div class="col-md-12 text-center">
-          <div class="section-title dark">
+          <div class="section-title dark revealOnScroll" data-animation="fadeInLeftBig">
       			References
       		</div>
         </div>
