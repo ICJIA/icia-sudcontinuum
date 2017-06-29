@@ -16,7 +16,7 @@
             <span class="icon-bar"></span>
           </button>
 
-          <a class="navbar-brand" href="http://www.icjia.state.il.us"><img src="/static/logos/icjia1.png" height="25" style="margin-top: -2px; float: left" /></a>&nbsp;&nbsp;&nbsp;<a class="navbar-brand"><span class="hidden-xs">REDUCING SUBSTANCE USE DISORDERS<span class="hidden-xs hidden-sm"> AND RELATED OFFENDING</span></span></a>
+          <router-link class="navbar-brand" to="/"><img src="/static/logos/icjia1.png" height="25" style="margin-top: -2px; float: left" />&nbsp;&nbsp;&nbsp;<span class="hidden-xs">REDUCING SUBSTANCE USE DISORDERS<span class="hidden-xs hidden-sm"> AND RELATED OFFENDING</span></span></router-link>
         </div>
 
 

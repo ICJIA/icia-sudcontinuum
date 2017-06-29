@@ -10,6 +10,8 @@
 
 @import '../../node_modules/animate.css/animate.min.css';
 
+// @import '../../node_modules/aos/dist/aos.css';
+
 @import "./timeline.scss"; // https://codyhouse.co/gem/vertical-timeline/
 
 
@@ -75,6 +77,7 @@ h1, h2, h3, h4 {
 	text-transform: uppercase;
 }
 
+p {margin-bottom: 15px;}
 
 
 /* ------------------------------------------------------------
@@ -257,7 +260,7 @@ a.webui-popover-trigger-i3:hover,
 a.webui-popover-trigger-i4:hover,
 a.webui-popover-trigger-i5:hover
 	{background: #999; color: #fff; text-decoration: none}
-	
+
 a.webui-popover-trigger-main.light:hover {background: #999; color: #fff; text-decoration: none}
 
 

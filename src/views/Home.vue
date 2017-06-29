@@ -53,6 +53,11 @@
 
             $(function() {
 
+
+              
+
+
+
               $('.webui-popover-trigger-main').webuiPopover(
                 {title:'REFERENCE', animation:'pop', content:function getFootnote() {
                   var el = $(this).attr('href')

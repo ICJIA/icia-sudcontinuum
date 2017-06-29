@@ -1,6 +1,7 @@
 // import jquery from 'jquery'
 import tether from 'tether'
 import bootstrap from 'bootstrap'
+
 // import lodash from 'lodash';
 import './scss/style.scss';
 
@@ -12,6 +13,8 @@ import router from './router'
 
 
 Vue.config.productionTip = false
+
+
 
 // import Meta from 'vue-meta'
 // Vue.use(Meta)

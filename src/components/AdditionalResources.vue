@@ -3,7 +3,7 @@
     <div class="container-fluid section-padding">
   <div class="row">
   	<div class="col-md-12 text-center">
-      <div class="section-title">
+      <div class="section-title" data-aos="zoom-in-right" data-aos-easing="ease-in-sine" data-aos-duration="800">
   			Additional Resources
   		</div>
   	</div>
