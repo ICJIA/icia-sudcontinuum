@@ -9,8 +9,8 @@
 	</div>
 	<div id="cd-timeline-1" class="cd-container">
 		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-bullhorn">
-				<i class="fa fa-bullhorn fa-2x" aria-hidden="true"></i>
+			<div class="cd-timeline-img cd-child">
+				<i class="fa fa-user-o fa-2x" aria-hidden="true"></i>
 			</div> <!-- cd-timeline-img -->
 
 			<div class="cd-timeline-content">
@@ -28,8 +28,8 @@
 		</div> <!-- cd-timeline-block -->
 
     <div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-bullhorn">
-				<i class="fa fa-bullhorn fa-2x" aria-hidden="true"></i>
+			<div class="cd-timeline-img cd-child">
+				<i class="fa fa-user-o fa-2x" aria-hidden="true"></i>
 			</div> <!-- cd-timeline-img -->
 
 			<div class="cd-timeline-content">
