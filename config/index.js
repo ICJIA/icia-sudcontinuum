@@ -16,15 +16,15 @@ module.exports = {
     // npm install --save-dev compression-webpack-plugin
     productionGzip: false,
     productionGzipExtensions: ['js', 'css'],
+    bannerDate: moment().tz("America/Chicago").format("dddd, MMMM Do YYYY, h:mm:ss a"),
+   bannerGit: "https://github.com/ICJIA/icjia-sudcontinuum",
+   bannerTitle: "ICJIA Substance Use Disorder Continuum",
+   bannerContact: "christopher.schweda@illinois.gov",
     // Run the build command with an extra argument to
     // View the bundle analyzer report after build finishes:
     // `npm run build --report`
     // Set to `true` or `false` to always turn it on or off
-    bundleAnalyzerReport: process.env.npm_config_report,
-    bannerDate: moment().tz("America/Chicago").format("dddd, MMMM Do YYYY, h:mm:ss a"),
-   bannerGit: "https://github.com/ICJIA/pwa-sud01",
-   bannerTitle: "ICJIA Promising Practices Continuum",
-   bannerContact: "christopher.schweda@illinois.gov",
+    bundleAnalyzerReport: process.env.npm_config_report
   },
   dev: {
     env: require('./dev.env'),
