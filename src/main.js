@@ -1,7 +1,7 @@
 // import jquery from 'jquery'
 import tether from 'tether'
 import bootstrap from 'bootstrap'
-import lodash from 'lodash';
+// import lodash from 'lodash';
 import './scss/style.scss';
 
 // The Vue build version to load with the `import` command
