@@ -39,7 +39,7 @@ export default {
   mounted() {
 
     $(function() {
-      $('.webui-popover-trigger-i0,.webui-popover-trigger-i1,.webui-popover-trigger-i2,.webui-popover-trigger-i30,.webui-popover-trigger-i4,.webui-popover-trigger-i5').webuiPopover(
+      $('.webui-popover-trigger-i0,.webui-popover-trigger-i1,.webui-popover-trigger-i2,.webui-popover-trigger-i30,.webui-popover-trigger-i4,.webui-popover-trigger-i5, .webui-popover-trigger').webuiPopover(
         {title:'REFERENCE', animation:'pop', content:function getFootnote() {
           var el = $(this).attr('href')
           return $(el).html()

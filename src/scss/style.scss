@@ -231,7 +231,8 @@ a.webui-popover-trigger-i1,
 a.webui-popover-trigger-i2,
 a.webui-popover-trigger-i3,
 a.webui-popover-trigger-i4,
-a.webui-popover-trigger-i5 {
+a.webui-popover-trigger-i5,
+a.webui-popover-trigger {
     position: relative;
 		top: -0.5em;
 		font-size: 60%;
@@ -258,7 +259,8 @@ a.webui-popover-trigger-i1:hover,
 a.webui-popover-trigger-i2:hover,
 a.webui-popover-trigger-i3:hover,
 a.webui-popover-trigger-i4:hover,
-a.webui-popover-trigger-i5:hover
+a.webui-popover-trigger-i5:hover,
+a.webui-popover-trigger:hover
 	{background: #999; color: #fff; text-decoration: none}
 
 a.webui-popover-trigger-main.light:hover {background: #999; color: #fff; text-decoration: none}
