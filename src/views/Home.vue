@@ -28,7 +28,7 @@
     import ThingsToConsider from '@/components/ThingsToConsider'
     import AdditionalResources from '@/components/AdditionalResources'
     import References from '@/components/References'
-    import moment from 'moment'
+    // import moment from 'moment'
 
 
     const description = `There are currently an estimated 2.3 million individuals in U.S. prisons and jails, with 1.5 million meeting DSM-IV medical criteria for addiction. Further, approximately 70 percent of state and 64 percent of federal inmates reported regular drug use prior to imprisonment; about 25 percent of violent offenders in state prisons committed their offenses under the influence of drugs`
@@ -139,10 +139,6 @@ function showBlocks(blocks, offset) {
 });
 
 
-
-
-
-
         },
 
 
@@ -171,18 +167,11 @@ function showBlocks(blocks, offset) {
 
 <style>
 
-
   .btn {
       color: #fff !important
   }
   a:hover {
       cursor: pointer;
   }
-
-
-
-
-
-
 
 </style>
