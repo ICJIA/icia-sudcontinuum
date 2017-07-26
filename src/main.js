@@ -1,17 +1,17 @@
 // import jquery from 'jquery'
-// import tether from 'tether'
-// import bootstrap from 'bootstrap'
+import tether from 'tether'
+import bootstrap from 'bootstrap'
 
-// import lodash from 'lodash';
+
 import './scss/style.scss';
 
-// The Vue build version to load with the `import` command
-// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
+
 import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-
+import VueDirectiveMarkdown from 'vue-directive-markdown'
+Vue.directive('md', VueDirectiveMarkdown)
 Vue.config.productionTip = false
 
 
