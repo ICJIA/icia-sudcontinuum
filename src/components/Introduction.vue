@@ -22,7 +22,6 @@
       <div class="row">
         <div class="col-md-12">
           <!-- content start -->
-
 <p><span class="drop">I</span>n the United States, more than 20 million individuals have substance use disorders (SUDs)—not including individuals with more mild or moderate substance use and misuse.<a href="#fn1" id="fnref1" title="See footnote" class="webui-popover-trigger-main">1</a>  Of those with SUDs, just over 10 percent ultimately receive treatment.<a href="#fn2" id="fnref2" title="See footnote" class="webui-popover-trigger-main">2</a>  On average, costs incurred in the United States from alcohol and drug use due to lost work productivity, health care expenses, motor vehicle accidents, and criminal justice costs exceeds $400 billion. Almost half of the cost is at the taxpayers’ expense.<a href="#fn3" id="fnref3" title="See footnote" class="webui-popover-trigger-main">3</a> </p>
 
 <p>Of the 20 million individuals with SUDs, a subset is involved with the criminal justice system. More than half of the 2.2 million individuals housed in U.S. prisons and jails meet the clinical diagnosis criteria for SUDs.<a href="#fn4" id="fnref4" title="See footnote" class="webui-popover-trigger-main">4</a>  Seventy-eight percent of violent crimes and 77 percent of property crimes involve drugs and/or alcohol.<a href="#fn5" id="fnref5" title="See footnote" class="webui-popover-trigger-main">5</a>  The government spends an estimated $74 billion dollars on court processing, community supervision, and imprisonment of individuals with SUDs, but just 1 percent of that amount on prevention and treatment for these individuals.<a href="#fn6" id="fnref6" title="See footnote" class="webui-popover-trigger-main">6</a>  In addition, about 11 percent of prisoners with SUDs or substance misuse receive treatment.<a href="#fn7" id="fnref7" title="See footnote" class="webui-popover-trigger-main">7</a>
@@ -152,14 +151,12 @@ There is strong evidence, through the use of reliable, replicable, and generaliz
 <script>
 
 export default {
-  mounted() {
+  data () {
+    return {
 
+    }
+  },
 
-
-
-
-
-  }
 }
 </script>
 

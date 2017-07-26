@@ -10,11 +10,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-import VueDirectiveMarkdown from 'vue-directive-markdown'
-Vue.directive('md', VueDirectiveMarkdown)
 Vue.config.productionTip = false
 
 
+import VueDirectiveMarkdown from 'vue-directive-markdown'
+Vue.directive('md', VueDirectiveMarkdown)
 
 // import Meta from 'vue-meta'
 // Vue.use(Meta)
