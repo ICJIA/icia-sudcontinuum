@@ -1,6 +1,6 @@
 // import jquery from 'jquery'
-import tether from 'tether'
-import bootstrap from 'bootstrap'
+// import tether from 'tether'
+// import bootstrap from 'bootstrap'
 
 // import lodash from 'lodash';
 import './scss/style.scss';
