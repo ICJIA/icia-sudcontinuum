@@ -56,7 +56,7 @@ There is strong evidence, through the use of reliable, replicable, and generaliz
 
 <p>Prevention of substance use requires an understanding of factors that may decrease the potential for substance use (protective factors) and factors that may put individuals at risk, or increase potential for substance use (risk factors). Evidence-informed prevention programs can target risk factors and enhance protective factors.<a href="#fn15" id="fnref15" title="See footnote" class="webui-popover-trigger-main">15</a>  There are five, evidence-based ecological domains that have been shown to be the most predictive of delinquency, including substance use: individual, family, peer, school, and community. </p>
 
-
+<div class="col-md-6 spacer30">
 
 <h3 id="risk-factors-include16"><strong>Risk factors include:<a href="#fn16" id="fnref16" title="See footnote" class="webui-popover-trigger-main">16</a></strong></h3>
 
@@ -99,9 +99,9 @@ There is strong evidence, through the use of reliable, replicable, and generaliz
 <li>Low socioeconomic status.*</li>
 <li>High rates of mobility within or between communities.*</li>
 </ul>
+</div>
 
-
-
+<div class="col-md-6 spacer30">
 <h3 id="protective-factors-include17"><strong>Protective factors include:<a href="#fn17" id="fnref17" title="See footnote" class="webui-popover-trigger-main">17</a></strong></h3>
 
 <p><em>Individual/peer</em></p>
@@ -131,7 +131,7 @@ There is strong evidence, through the use of reliable, replicable, and generaliz
 
 <h6 id="denotes-factor-related-to-young-adult-substance-use">*denotes factor related to young adult substance use.</h6>
 
-
+</div>
 
 
           <!-- content end -->
@@ -201,6 +201,10 @@ export default {
 .header h4, .header-mobile h4 {font-weight: 400 !important; color: #444 !important}
 
 .intro-sub {font-size: 28px; margin-top: 50px; }
+.spacer30 {margin-top: 30px;}
 
+em {
+    font-style: italic;
+}
 
 </style>
