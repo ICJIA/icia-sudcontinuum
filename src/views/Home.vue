@@ -174,4 +174,15 @@ function showBlocks(blocks, offset) {
       cursor: pointer;
   }
 
+  strong {font-weight: 900 !important}
+
+  em {
+      font-style: italic;
+  }
+
+  em.muted {color: #888}
+
+  .footnotes {padding-left: 20px; padding-right: 20px;}
+
+
 </style>

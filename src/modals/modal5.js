@@ -3,7 +3,7 @@ const modal5 =
 
 <div class="modalIntro">
   <p>
-  This intercept ...
+  This intercept involves probation and parole programs and services. This includes connecting individuals to appropriate community-based services and resources.
   </p>
 </div>
 
@@ -24,7 +24,172 @@ const modal5 =
                 <!-- panel 1 start -->
 
 
-                Body 1
+                <h2 id="behavioral-therapies1"><strong>Behavioral Therapies<a href="#fni51" id="fnref1" title="See footnote" class="webui-popover-trigger">1</a></strong></h2>
+
+                <p><strong>Description:</strong> Behavioral therapies include those that reinforce and provide incentives for abstinence, enhancing life and coping skills surrounding situations and emotions that may trigger drug use, and help change attitudes and behaviors related to substance use. Some therapies focus more on the behavioral aspect of substance use; some focus more on the cognitive aspect of substance use. Others use both approaches, called cognitive-behavioral therapy. Cognitive-behavioral therapy (CBT) is a general classification of therapeutic techniques that focus on two aspects: </p>
+
+                <ul>
+                <li>The thought processes, attitudes, and values underlying antisocial behavior (cognitive).</li>
+                <li>The observable behaviors (behavioral).</li>
+                </ul>
+
+                <p>Ultimately, CBT helps individuals understand how thoughts and feelings influence choices in behavior, in addition to providing behavioral alternatives. In order to help change antisocial behavior, such as substance use, CBT helps individuals identify and replace thoughts, attitudes, and beliefs that lead may to substance use.<a href="#fni52" id="fnref2" title="See footnote" class="webui-popover-trigger">2</a>    Further, CBT helps individuals by teaching social and emotional skills, while also using positive and negative consequences to shape behavior. This helps provide tools for individuals to use when encountering situations that may lead to substance use or other antisocial behaviors.<a href="#fni53" id="fnref3" title="See footnote" class="webui-popover-trigger">3</a>   CBT incorporates several distinct interventions that may be used alone or in combination, in an individual or group format. In particular, CBT incorporates some combination of</p>
+
+                <ul>
+                <li>cognitive restructuring;</li>
+                <li>social skill building;</li>
+                <li>emotional regulation skills;</li>
+                <li>modeling and role-playing; </li>
+                <li>homework assignments;</li>
+                <li>motivational enhancement/interviewing techniques;</li>
+                <li>contingency management principles;</li>
+                <li>psychoeducation; and</li>
+                <li>systematic training of alternative responses to triggers (high-risk situations).<a href="#fni54" id="fnref4" title="See footnote" class="webui-popover-trigger">4</a>  </li>
+                </ul>
+
+                <p>Some treatment focuses more on cognitions (considered cognitive therapy), some more on behaviors (considered behavioral therapy), and some provide a balance of both (considered cognitive-behavioral therapy).<a href="#fni55" id="fnref5" title="See footnote" class="webui-popover-trigger">5</a>   </p>
+
+                <p>Behavioral and CBT-based treatment can take several forms in the community (but is not limited to):</p>
+
+                <ul>
+                <li>Individual, family, or group-based.</li>
+                <li>Residential, inpatient treatment.</li>
+                <li>Outpatient or intensive outpatient programs (IOP).</li>
+                </ul>
+
+                <p>In addition, it is also beneficial for treatment to be supplemented with other support services: <br>
+                 - Educational and vocational training. <br>
+                 - Self-help or peer recovery support services. <br>
+                 - Mental health services. <a href="#fni56" id="fnref6" title="See footnote" class="webui-popover-trigger">6</a> </p>
+
+                <hr>
+
+                <p><strong>Goals:</strong></p>
+
+                <ul>
+                <li>Develop and increase use of appropriate social and emotional skills.</li>
+                <li>Understand how thinking leads to behavior.</li>
+                <li>Target maladaptive thinking patterns.</li>
+                <li>Improve moral and critical reasoning.</li>
+                <li>Develop and use interpersonal skills.</li>
+                <li>Manage or cope with risky situations that may lead to relapse.</li>
+                <li>Increase self-control and impulse management. </li>
+                <li>Increase public safety and community safety.</li>
+                <li>Increase number of individuals in the workforce. </li>
+                <li>Increase self-efficacy and self-control.<a href="#fni57" id="fnref7" title="See footnote" class="webui-popover-trigger">7</a>  </li>
+                </ul>
+
+                <hr>
+
+                <p><strong>Eligibility:</strong>  Ideally, eligibility should be based on a validated clinical tool or validated risk/needs assessment conducted by trained professionals. Examples of assessments facilitated by trained clinicians include:</p>
+
+                <ul>
+                <li><a href="http://www.tresearch.org/tools/download-asi-instruments-manuals/">Addiction Severity Index (ASI)</a>. </li>
+                <li><a href="https://www.drugabuse.gov/sites/default/files/files/OpioidRiskTool.pdf">Opioid Risk Tool</a> (free).</li>
+                <li><a href="https://www.drugabuse.gov/sites/default/files/files/DAST-10.pdf">DAST -10</a> (free).</li>
+                <li><a href="https://www.drugabuse.gov/nmassist/">NIDA’s Drug Screening Tool</a> (free).<a href="#fni58" id="fnref8" title="See footnote" class="webui-popover-trigger">8</a> </li>
+                <li><a href="http://pubs.niaaa.nih.gov/publications/AssessingAlcohol/InstrumentPDFs/66_SASSI.pdf">Substance Abuse Subtle Screening Inventory</a> (SASSI). </li>
+                <li><a href="https://ibr.tcu.edu/forms/tcu-drug-screen/">Texas Christian University (TCU) Drug Screen II</a>.<a href="#fni59" id="fnref9" title="See footnote" class="webui-popover-trigger">9</a>  </li>
+                </ul>
+
+                <p>For professionals in the criminal justice system, a validated risk/needs assessment can help identify if substance use is a high need area for an individual, in which it may be appropriate to refer to a clinician for further assessment. Some of these validated risk/needs assessments include:</p>
+
+                <ul>
+                <li><a href="http://mhs.com/product.aspx?gr=saf&amp;prod=lsi-rs&amp;id=overview">Level of Service Inventory-Revised: Screening Version (LSI-R:SV)</a>.</li>
+                <li><a href="http://www.mhs.com/product.aspx?gr=saf&amp;id=overview&amp;prod=lsi-r">Level of Service Inventory-Revised (LSI-R)</a>.</li>
+                <li><a href="http://www.mhs.com/product.aspx?gr=saf&amp;id=overview&amp;prod=ls-cmi">Level of Service/Case Management Inventory (LSCMI)</a>. </li>
+                <li><a href="http://gaincc.org/instruments/">Global Appraisal of Individual Needs (GAIN)</a>.<a href="#fni510" id="fnref10" title="See footnote" class="webui-popover-trigger">10</a>  </li>
+                <li><a href="http://www.northpointeinc.com/files/downloads/Risk-Needs-Assessment.pdf">Correctional Offender Management Profiling for Alternative Sanctions (COMPAS)</a>. </li>
+                <li><a href="http://www.uc.edu/corrections/services/trainings/offender_assessment.html">Ohio Risk Assessment System (ORAS)</a> (non-propriety, but costs for training).<a href="#fni511" id="fnref11" title="See footnote" class="webui-popover-trigger">11</a>     </li>
+                </ul>
+
+                <hr>
+
+                <p><strong>Program Examples:</strong> <br>
+                The programs below have substantial and rigorous research identifying them as <strong><em>effective</em></strong> behavioral intervention programs. This is not a comprehensive list.</p>
+
+                <p><strong><a href="http://pubs.niaaa.nih.gov/publications/arh23-2/151-160.pdf">Relapse Prevention (RP)</a></strong> is a CBT-based program that specifically and systematically trains individuals to engage in alternate responses to high-risk situations related to substance use.<a href="#fni512" id="fnref12" title="See footnote" class="webui-popover-trigger">12</a>   RP incorporates the use of cognitive and behavioral strategies to reduce relapse through identification of “triggers”— individually specific high-risk situations that may precede or contribute to relapse.<a href="#fni513" id="fnref13" title="See footnote" class="webui-popover-trigger">13</a>  Additional aspects of RP include</p>
+
+                <ul>
+                <li>enhancing self-efficacy;</li>
+                <li>managing relapses;</li>
+                <li>identifying and coping with high-risk situations;</li>
+                <li>eliminating myths and placebo effects (countering misperceptions of use); and</li>
+                <li>balancing and modifying lifestyle factors.<a href="#fni514" id="fnref14" title="See footnote" class="webui-popover-trigger">14</a> </li>
+                </ul>
+
+                <p><strong><a href="http://pubs.niaaa.nih.gov/publications/arh23-2/122-127.pdf">Contingency management (CM)</a></strong> is an incentive-based intervention with a behavioral focus that uses reinforcements to meet specific behavioral goals such as remaining clean and sober, providing negative urine screens, or completing treatment sessions.<a href="#fni515" id="fnref15" title="See footnote" class="webui-popover-trigger">15</a>  Reinforcements shape or control behavior through consequences and non-drug-related reinforcers to help counter the reinforcing effects of drugs.<a href="#fni516" id="fnref16" title="See footnote" class="webui-popover-trigger">16</a>  Two common types of CM programs:</p>
+
+                <p>•   <em>Voucher-Based Reinforcement Therapy (VBRT)</em> which uses vouchers with differing monetary values each time an individual engages in specific positive behaviors that may be exchanged for goods or services.<a href="#fni517" id="fnref17" title="See footnote" class="webui-popover-trigger">17</a> <br>
+                •   <em>Price-Based (PB) contingency management</em> which uses a drawing for a prize when an individual engages in positive behavior, but not all drawings will result in a tangible prize.<a href="#fni518" id="fnref18" title="See footnote" class="webui-popover-trigger">18</a>   </p>
+
+                <hr>
+
+                <p><strong>Research findings.</strong> CBT and behavioral therapies are effective types of treatment, that generally has a moderate effect on reducing</p>
+
+                <ul>
+                <li>substance use; </li>
+                <li>substance abuse; and</li>
+                <li>reoffending.<a href="#fni519" id="fnref19" title="See footnote" class="webui-popover-trigger">19</a>  </li>
+                </ul>
+
+                <p>Further, research indicates that CBT and behavioral intervention programs can be more effective than</p>
+
+                <ul>
+                <li>abstinence-based approaches;</li>
+                <li>standard case management;</li>
+                <li>12-step counseling;<a href="#fni520" id="fnref20" title="See footnote" class="webui-popover-trigger">20</a>   and</li>
+                <li>behavioral therapies without CM.<a href="#fni521" id="fnref21" title="See footnote" class="webui-popover-trigger">21</a>  </li>
+                </ul>
+
+                <p>In a meta-analysis, CBT showed a 26 percent reduction in recidivism for CBT program participants compared to a control group.<a href="#fni522" id="fnref22" title="See footnote" class="webui-popover-trigger">22</a>  Further, CBT-based programs are effective with a variety of individuals, including those with SUDs or substance abuse/misuse.<a href="#fni523" id="fnref23" title="See footnote" class="webui-popover-trigger">23</a>  </p>
+
+                <p>Behavioral (including CBT) programs or interventions produce the greatest effects when they adhere to the following principles:</p>
+
+                <ul>
+                <li>Target those at <em>higher-risk to recidivate</em> (moderate- and high-risk) based on a validated risk/needs assessment.</li>
+                <li>Target <em>criminogenic risk factors</em> most highly associated with recidivism based on a validated risk/needs assessment.</li>
+                <li>Are <em>responsive</em> to individual needs and barriers (i.e. language, mental health, intellectual or cognitive disabilities).</li>
+                <li>Use <em>well-trained</em> professionals.</li>
+                <li>Maintain <em>adherence to the program or practice components</em> (fidelity, or using a program or practice as it is meant to be delivered based on training).<a href="#fni524" id="fnref24" title="See footnote" class="webui-popover-trigger">24</a> </li>
+                </ul>
+
+                <hr>
+
+                <p><strong>Other <em>Effective</em> and <em>Promising</em> Behavioral- and CBT-based Interventions</strong></p>
+
+                <p><a href="http://nicic.gov/t4c">Thinking for a Change</a> <br>
+                <a href="http://www.moral-reconation-therapy.com/">Moral Reconation Therapy (MRT)</a> <br>
+                <a href="https://www.improvingmipractices.org/practices/motivational-enhancement-motivational-interviewing">Motivational Enhancement Therapy/Motivational Interviewing (MET/MI)</a> <br>
+                <a href="http://mindbodybridging.com/applications/mbb-recovery-program/">Mind-Body Bridging Substance Abuse Program (MBBSAP)</a> <br>
+                <a href="https://www.drugabuse.gov/publications/principles-drug-addiction-treatment-research-based-guide-third-edition/evidence-based-approaches-to-drug-addiction-treatment/behavioral-0">Contingency Management programs (CM)</a> <br>
+                <a href="http://www.samhsa.gov/nctic/trauma-interventions">Trauma-informed</a> substance use disorder treatment such as: <a href="http://www.ptsdfreedom.org/about_target.html">TARGET</a>, <a href="http://www.treatment-innovations.org/seeking-safety.html">Seeking Safety</a>, and <a href="http://www.samhsa.gov/nctic/trauma-interventions#Guide%20for%20Education%20and%20Therapy">TAMAR</a> <br>
+                <a href="https://www.drugabuse.gov/publications/principles-drug-addiction-treatment-research-based-guide-third-edition/evidence-based-approaches-to-drug-addiction-treatment/behavioral-3">Matrix Model</a>  <br>
+                <a href="http://mstservices.com/target-populations/substance-abuse">Multisystemic Therapy-Substance Abuse</a> <br>
+                <a href="https://www.drugabuse.gov/publications/principles-drug-addiction-treatment-research-based-guide-third-edition/evidence-based-approaches-to-drug-addiction-treatment/behavioral-0">Voucher-Based Reinforcement (VBR) and Prize-Based (PB) CM</a> <br>
+                <a href="http://nrepp.samhsa.gov/ProgramProfile.aspx?id=116">Adolescent Community Reinforcement Approach (A-CRA)/Assertive Continuing Care (ACC)</a> <br>
+                <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3215582/">Behavioral Couples Therapy</a> <br>
+                <a href="http://www.aggressionreplacementtraining.com/">Aggression Replacement Training (ART)</a> <br>
+                <a href="http://nicic.gov/wodp/program/215-cognitive-interventions-program-cgip">Cognitive Interventions Program</a>  <br>
+                <a href="http://www.cognitivecentre.ca/RRProgram">Reasoning and Rehabilitation</a></p>
+
+                <hr>
+
+                <p><strong>Read More</strong> <br>
+                <a href="https://www.publicsafety.gc.ca/cnt/rsrcs/pblctns/rsk-nd-rspnsvty/index-eng.aspx">Risk-Need-Responsivity Model for offender assessment and rehabilitation</a> <br>
+                <a href="https://www.ncbi.nlm.nih.gov/books/NBK64141/">Treatment for offenders under community supervision</a> <br>
+                <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851043/">Integrating substance abuse treatment and criminal justice supervision</a> <br>
+                <a href="http://www.ncchc.org/substance-use-disorder-treatment-position-statement">National Commission on Correctional Health Care</a></p>
+
+                <p>For more information on validated and reliable substance use assessment tools and risk/need tools:</p>
+
+                <p><a href="http://www.ncsc.org/~/media/Files/PDF/Services%20and%20Experts/Areas%20of%20expertise/Sentencing%20Probation/RAN%20Appendix%20A.ashx">Center for Sentencing Initiatives Assessment Appendix</a> <br>
+                <a href="https://fas.org/sgp/crs/misc/R44087.pdf">Risk and Needs Assessment in the Criminal Justice System</a> <br>
+                <a href="https://ibr.tcu.edu/forms/tcu-drug-screen/">TCU Institute of Behavioral Research</a></p>
+
+                <hr>
+
+
 
 
                 <!-- panel 1 stop -->
@@ -159,171 +324,6 @@ const modal5 =
 
 
 
-
-<h2 id="behavioral-therapies1"><strong>Behavioral Therapies<a href="#fni51" id="fnref1" title="See footnote" class="webui-popover-trigger">1</a></strong></h2>
-
-<p><strong>Description:</strong> Behavioral therapies include those that reinforce and provide incentives for abstinence, enhancing life and coping skills surrounding situations and emotions that may trigger drug use, and help change attitudes and behaviors related to substance use. Some therapies focus more on the behavioral aspect of substance use; some focus more on the cognitive aspect of substance use. Others use both approaches, called cognitive-behavioral therapy. Cognitive-behavioral therapy (CBT) is a general classification of therapeutic techniques that focus on two aspects: </p>
-
-<ul>
-<li>The thought processes, attitudes, and values underlying antisocial behavior (cognitive).</li>
-<li>The observable behaviors (behavioral).</li>
-</ul>
-
-<p>Ultimately, CBT helps individuals understand how thoughts and feelings influence choices in behavior, in addition to providing behavioral alternatives. In order to help change antisocial behavior, such as substance use, CBT helps individuals identify and replace thoughts, attitudes, and beliefs that lead may to substance use.<a href="#fni52" id="fnref2" title="See footnote" class="webui-popover-trigger">2</a>    Further, CBT helps individuals by teaching social and emotional skills, while also using positive and negative consequences to shape behavior. This helps provide tools for individuals to use when encountering situations that may lead to substance use or other antisocial behaviors.<a href="#fni53" id="fnref3" title="See footnote" class="webui-popover-trigger">3</a>   CBT incorporates several distinct interventions that may be used alone or in combination, in an individual or group format. In particular, CBT incorporates some combination of</p>
-
-<ul>
-<li>cognitive restructuring;</li>
-<li>social skill building;</li>
-<li>emotional regulation skills;</li>
-<li>modeling and role-playing; </li>
-<li>homework assignments;</li>
-<li>motivational enhancement/interviewing techniques;</li>
-<li>contingency management principles;</li>
-<li>psychoeducation; and</li>
-<li>systematic training of alternative responses to triggers (high-risk situations).<a href="#fni54" id="fnref4" title="See footnote" class="webui-popover-trigger">4</a>  </li>
-</ul>
-
-<p>Some treatment focuses more on cognitions (considered cognitive therapy), some more on behaviors (considered behavioral therapy), and some provide a balance of both (considered cognitive-behavioral therapy).<a href="#fni55" id="fnref5" title="See footnote" class="webui-popover-trigger">5</a>   </p>
-
-<p>Behavioral and CBT-based treatment can take several forms in the community (but is not limited to):</p>
-
-<ul>
-<li>Individual, family, or group-based.</li>
-<li>Residential, inpatient treatment.</li>
-<li>Outpatient or intensive outpatient programs (IOP).</li>
-</ul>
-
-<p>In addition, it is also beneficial for treatment to be supplemented with other support services: <br>
- - Educational and vocational training. <br>
- - Self-help or peer recovery support services. <br>
- - Mental health services. <a href="#fni56" id="fnref6" title="See footnote" class="webui-popover-trigger">6</a> </p>
-
-<hr>
-
-<p><strong>Goals:</strong></p>
-
-<ul>
-<li>Develop and increase use of appropriate social and emotional skills.</li>
-<li>Understand how thinking leads to behavior.</li>
-<li>Target maladaptive thinking patterns.</li>
-<li>Improve moral and critical reasoning.</li>
-<li>Develop and use interpersonal skills.</li>
-<li>Manage or cope with risky situations that may lead to relapse.</li>
-<li>Increase self-control and impulse management. </li>
-<li>Increase public safety and community safety.</li>
-<li>Increase number of individuals in the workforce. </li>
-<li>Increase self-efficacy and self-control.<a href="#fni57" id="fnref7" title="See footnote" class="webui-popover-trigger">7</a>  </li>
-</ul>
-
-<hr>
-
-<p><strong>Eligibility:</strong>  Ideally, eligibility should be based on a validated clinical tool or validated risk/needs assessment conducted by trained professionals. Examples of assessments facilitated by trained clinicians include:</p>
-
-<ul>
-<li><a href="http://www.tresearch.org/tools/download-asi-instruments-manuals/">Addiction Severity Index (ASI)</a>. </li>
-<li><a href="https://www.drugabuse.gov/sites/default/files/files/OpioidRiskTool.pdf">Opioid Risk Tool</a> (free).</li>
-<li><a href="https://www.drugabuse.gov/sites/default/files/files/DAST-10.pdf">DAST -10</a> (free).</li>
-<li><a href="https://www.drugabuse.gov/nmassist/">NIDA’s Drug Screening Tool</a> (free).<a href="#fni58" id="fnref8" title="See footnote" class="webui-popover-trigger">8</a> </li>
-<li><a href="http://pubs.niaaa.nih.gov/publications/AssessingAlcohol/InstrumentPDFs/66_SASSI.pdf">Substance Abuse Subtle Screening Inventory</a> (SASSI). </li>
-<li><a href="https://ibr.tcu.edu/forms/tcu-drug-screen/">Texas Christian University (TCU) Drug Screen II</a>.<a href="#fni59" id="fnref9" title="See footnote" class="webui-popover-trigger">9</a>  </li>
-</ul>
-
-<p>For professionals in the criminal justice system, a validated risk/needs assessment can help identify if substance use is a high need area for an individual, in which it may be appropriate to refer to a clinician for further assessment. Some of these validated risk/needs assessments include:</p>
-
-<ul>
-<li><a href="http://mhs.com/product.aspx?gr=saf&amp;prod=lsi-rs&amp;id=overview">Level of Service Inventory-Revised: Screening Version (LSI-R:SV)</a>.</li>
-<li><a href="http://www.mhs.com/product.aspx?gr=saf&amp;id=overview&amp;prod=lsi-r">Level of Service Inventory-Revised (LSI-R)</a>.</li>
-<li><a href="http://www.mhs.com/product.aspx?gr=saf&amp;id=overview&amp;prod=ls-cmi">Level of Service/Case Management Inventory (LSCMI)</a>. </li>
-<li><a href="http://gaincc.org/instruments/">Global Appraisal of Individual Needs (GAIN)</a>.<a href="#fni510" id="fnref10" title="See footnote" class="webui-popover-trigger">10</a>  </li>
-<li><a href="http://www.northpointeinc.com/files/downloads/Risk-Needs-Assessment.pdf">Correctional Offender Management Profiling for Alternative Sanctions (COMPAS)</a>. </li>
-<li><a href="http://www.uc.edu/corrections/services/trainings/offender_assessment.html">Ohio Risk Assessment System (ORAS)</a> (non-propriety, but costs for training).<a href="#fni511" id="fnref11" title="See footnote" class="webui-popover-trigger">11</a>     </li>
-</ul>
-
-<hr>
-
-<p><strong>Program Examples:</strong> <br>
-The programs below have substantial and rigorous research identifying them as <strong><em>effective</em></strong> behavioral intervention programs. This is not a comprehensive list.</p>
-
-<p><strong><a href="http://pubs.niaaa.nih.gov/publications/arh23-2/151-160.pdf">Relapse Prevention (RP)</a></strong> is a CBT-based program that specifically and systematically trains individuals to engage in alternate responses to high-risk situations related to substance use.<a href="#fni512" id="fnref12" title="See footnote" class="webui-popover-trigger">12</a>   RP incorporates the use of cognitive and behavioral strategies to reduce relapse through identification of “triggers”— individually specific high-risk situations that may precede or contribute to relapse.<a href="#fni513" id="fnref13" title="See footnote" class="webui-popover-trigger">13</a>  Additional aspects of RP include</p>
-
-<ul>
-<li>enhancing self-efficacy;</li>
-<li>managing relapses;</li>
-<li>identifying and coping with high-risk situations;</li>
-<li>eliminating myths and placebo effects (countering misperceptions of use); and</li>
-<li>balancing and modifying lifestyle factors.<a href="#fni514" id="fnref14" title="See footnote" class="webui-popover-trigger">14</a> </li>
-</ul>
-
-<p><strong><a href="http://pubs.niaaa.nih.gov/publications/arh23-2/122-127.pdf">Contingency management (CM)</a></strong> is an incentive-based intervention with a behavioral focus that uses reinforcements to meet specific behavioral goals such as remaining clean and sober, providing negative urine screens, or completing treatment sessions.<a href="#fni515" id="fnref15" title="See footnote" class="webui-popover-trigger">15</a>  Reinforcements shape or control behavior through consequences and non-drug-related reinforcers to help counter the reinforcing effects of drugs.<a href="#fni516" id="fnref16" title="See footnote" class="webui-popover-trigger">16</a>  Two common types of CM programs:</p>
-
-<p>•   <em>Voucher-Based Reinforcement Therapy (VBRT)</em> which uses vouchers with differing monetary values each time an individual engages in specific positive behaviors that may be exchanged for goods or services.<a href="#fni517" id="fnref17" title="See footnote" class="webui-popover-trigger">17</a> <br>
-•   <em>Price-Based (PB) contingency management</em> which uses a drawing for a prize when an individual engages in positive behavior, but not all drawings will result in a tangible prize.<a href="#fni518" id="fnref18" title="See footnote" class="webui-popover-trigger">18</a>   </p>
-
-<hr>
-
-<p><strong>Research findings.</strong> CBT and behavioral therapies are effective types of treatment, that generally has a moderate effect on reducing</p>
-
-<ul>
-<li>substance use; </li>
-<li>substance abuse; and</li>
-<li>reoffending.<a href="#fni519" id="fnref19" title="See footnote" class="webui-popover-trigger">19</a>  </li>
-</ul>
-
-<p>Further, research indicates that CBT and behavioral intervention programs can be more effective than</p>
-
-<ul>
-<li>abstinence-based approaches;</li>
-<li>standard case management;</li>
-<li>12-step counseling;<a href="#fni520" id="fnref20" title="See footnote" class="webui-popover-trigger">20</a>   and</li>
-<li>behavioral therapies without CM.<a href="#fni521" id="fnref21" title="See footnote" class="webui-popover-trigger">21</a>  </li>
-</ul>
-
-<p>In a meta-analysis, CBT showed a 26 percent reduction in recidivism for CBT program participants compared to a control group.<a href="#fni522" id="fnref22" title="See footnote" class="webui-popover-trigger">22</a>  Further, CBT-based programs are effective with a variety of individuals, including those with SUDs or substance abuse/misuse.<a href="#fni523" id="fnref23" title="See footnote" class="webui-popover-trigger">23</a>  </p>
-
-<p>Behavioral (including CBT) programs or interventions produce the greatest effects when they adhere to the following principles:</p>
-
-<ul>
-<li>Target those at <em>higher-risk to recidivate</em> (moderate- and high-risk) based on a validated risk/needs assessment.</li>
-<li>Target <em>criminogenic risk factors</em> most highly associated with recidivism based on a validated risk/needs assessment.</li>
-<li>Are <em>responsive</em> to individual needs and barriers (i.e. language, mental health, intellectual or cognitive disabilities).</li>
-<li>Use <em>well-trained</em> professionals.</li>
-<li>Maintain <em>adherence to the program or practice components</em> (fidelity, or using a program or practice as it is meant to be delivered based on training).<a href="#fni524" id="fnref24" title="See footnote" class="webui-popover-trigger">24</a> </li>
-</ul>
-
-<hr>
-
-<p><strong>Other <em>Effective</em> and <em>Promising</em> Behavioral- and CBT-based Interventions</strong></p>
-
-<p><a href="http://nicic.gov/t4c">Thinking for a Change</a> <br>
-<a href="http://www.moral-reconation-therapy.com/">Moral Reconation Therapy (MRT)</a> <br>
-<a href="https://www.improvingmipractices.org/practices/motivational-enhancement-motivational-interviewing">Motivational Enhancement Therapy/Motivational Interviewing (MET/MI)</a> <br>
-<a href="http://mindbodybridging.com/applications/mbb-recovery-program/">Mind-Body Bridging Substance Abuse Program (MBBSAP)</a> <br>
-<a href="https://www.drugabuse.gov/publications/principles-drug-addiction-treatment-research-based-guide-third-edition/evidence-based-approaches-to-drug-addiction-treatment/behavioral-0">Contingency Management programs (CM)</a> <br>
-<a href="http://www.samhsa.gov/nctic/trauma-interventions">Trauma-informed</a> substance use disorder treatment such as: <a href="http://www.ptsdfreedom.org/about_target.html">TARGET</a>, <a href="http://www.treatment-innovations.org/seeking-safety.html">Seeking Safety</a>, and <a href="http://www.samhsa.gov/nctic/trauma-interventions#Guide%20for%20Education%20and%20Therapy">TAMAR</a> <br>
-<a href="https://www.drugabuse.gov/publications/principles-drug-addiction-treatment-research-based-guide-third-edition/evidence-based-approaches-to-drug-addiction-treatment/behavioral-3">Matrix Model</a>  <br>
-<a href="http://mstservices.com/target-populations/substance-abuse">Multisystemic Therapy-Substance Abuse</a> <br>
-<a href="https://www.drugabuse.gov/publications/principles-drug-addiction-treatment-research-based-guide-third-edition/evidence-based-approaches-to-drug-addiction-treatment/behavioral-0">Voucher-Based Reinforcement (VBR) and Prize-Based (PB) CM</a> <br>
-<a href="http://nrepp.samhsa.gov/ProgramProfile.aspx?id=116">Adolescent Community Reinforcement Approach (A-CRA)/Assertive Continuing Care (ACC)</a> <br>
-<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3215582/">Behavioral Couples Therapy</a> <br>
-<a href="http://www.aggressionreplacementtraining.com/">Aggression Replacement Training (ART)</a> <br>
-<a href="http://nicic.gov/wodp/program/215-cognitive-interventions-program-cgip">Cognitive Interventions Program</a>  <br>
-<a href="http://www.cognitivecentre.ca/RRProgram">Reasoning and Rehabilitation</a></p>
-
-<hr>
-
-<p><strong>Read More</strong> <br>
-<a href="https://www.publicsafety.gc.ca/cnt/rsrcs/pblctns/rsk-nd-rspnsvty/index-eng.aspx">Risk-Need-Responsivity Model for offender assessment and rehabilitation</a> <br>
-<a href="https://www.ncbi.nlm.nih.gov/books/NBK64141/">Treatment for offenders under community supervision</a> <br>
-<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851043/">Integrating substance abuse treatment and criminal justice supervision</a> <br>
-<a href="http://www.ncchc.org/substance-use-disorder-treatment-position-statement">National Commission on Correctional Health Care</a></p>
-
-<p>For more information on validated and reliable substance use assessment tools and risk/need tools:</p>
-
-<p><a href="http://www.ncsc.org/~/media/Files/PDF/Services%20and%20Experts/Areas%20of%20expertise/Sentencing%20Probation/RAN%20Appendix%20A.ashx">Center for Sentencing Initiatives Assessment Appendix</a> <br>
-<a href="https://fas.org/sgp/crs/misc/R44087.pdf">Risk and Needs Assessment in the Criminal Justice System</a> <br>
-<a href="https://ibr.tcu.edu/forms/tcu-drug-screen/">TCU Institute of Behavioral Research</a></p>
-
-<hr>
 
 
 

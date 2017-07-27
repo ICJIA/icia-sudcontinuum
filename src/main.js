@@ -13,8 +13,8 @@ import router from './router'
 Vue.config.productionTip = false
 
 
-import VueDirectiveMarkdown from 'vue-directive-markdown'
-Vue.directive('md', VueDirectiveMarkdown)
+// import VueDirectiveMarkdown from 'vue-directive-markdown'
+// Vue.directive('md', VueDirectiveMarkdown)
 
 // import Meta from 'vue-meta'
 // Vue.use(Meta)

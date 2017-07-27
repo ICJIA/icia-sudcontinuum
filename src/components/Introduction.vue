@@ -40,15 +40,15 @@
 <h2 id="defining-evidence-based-practices14" class="intro-sub">Defining Evidence-Based Practices<a href="#fn14" id="fnref14" title="See footnote" class="webui-popover-trigger-main">14</a></h2>
 
 <p><strong>Not Evidence-Informed or Evidence-Based or Anecdotal</strong> <br>
-<strong><em>No Effect or Unknown Effect</em></strong> <br>
+<strong><em class="muted">No Effect or Unknown Effect</em></strong> <br>
 There is little or no evidence, through the use of reliable, replicable, and generalizable research, indicating the programs achieve what they are intended to achieve. </p>
 
 <p><strong>Evidence-Informed</strong> <br>
-<strong><em>Promising</em></strong> <br>
+<strong><em class="muted">Promising</em></strong> <br>
 There is some evidence, through the use of reliable, replicable, and generalizable research, indicating the programs achieve what they are intended to achieve. </p>
 
 <p><strong>Evidence-Based</strong>  <br>
-<strong><em>Effective</em></strong> <br>
+<strong><em class="muted">Effective</em></strong> <br>
 There is strong evidence, through the use of reliable, replicable, and generalizable research, indicating the programs achieve what they are set out to achieve. </p>
 
 
@@ -162,10 +162,10 @@ export default {
 
 <style lang="css" scoped>
 #hero{
-  background-image:url(/static/img/hero2.jpg);
+  background-image:url(/static/img/hero3.jpg);
   background-size:cover;
   position:relative;
-  height:90vh;
+  height:80vh;
 }
 
 .header{
@@ -203,8 +203,5 @@ export default {
 .intro-sub {font-size: 28px; margin-top: 50px; }
 .spacer30 {margin-top: 30px;}
 
-em {
-    font-style: italic;
-}
 
 </style>
