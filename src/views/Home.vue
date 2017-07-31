@@ -178,6 +178,7 @@ function showBlocks(blocks, offset) {
 
   em {
       font-style: italic;
+      font-weight: 400 !important;
   }
 
   em.muted {color: #888}
