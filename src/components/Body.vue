@@ -13,8 +13,8 @@
 				<i class="fa fa-user-o fa-2x" aria-hidden="true"></i>
 			</div> <!-- cd-timeline-img -->
 
-			<div class="cd-timeline-content">
-        <h2 id="section-1i0"><strong>Intercept 0: Prevention</strong></h2>
+			<div class="cd-timeline-content color-i0" >
+        <h2 id="section-1i0" class="light-heading"><strong>Intercept 0: Prevention</strong></h2>
 
 <p>This intercept involves community partnerships, prevention, and behavioral health services. The goal is to provide the earliest intervention effort to prevent criminal justice involvement.</p>
 
@@ -32,8 +32,8 @@
 				<i class="fa fa-user-o fa-2x" aria-hidden="true"></i>
 			</div> <!-- cd-timeline-img -->
 
-			<div class="cd-timeline-content">
-        <h2 id="section-1i0"><strong>Intercept 1: Law Enforcement</strong></h2>
+			<div class="cd-timeline-content color-i1">
+        <h2 id="section-1i0" class="light-heading"><strong>Intercept 1: Law Enforcement</strong></h2>
 
 <p>This intercept involves first contact with the criminal justice system, including dispatch, law enforcement, and emergency services or crisis response teams.
 
@@ -53,8 +53,8 @@
 				<i class="fa fa-user-o fa-2x" aria-hidden="true"></i>
 			</div>
 
-			<div class="cd-timeline-content">
-        <h2 id="section-1i0"><strong>Intercept 2: Initial Detention/Initial Court Hearings </strong></h2>
+			<div class="cd-timeline-content color-i2">
+        <h2 id="section-1i0" class="light-heading"><strong>Intercept 2: Initial Detention/Initial Court Hearings </strong></h2>
 
 <p>This intercept involves post-arrest, initial detention, or initial court hearings. This includes pre-trial programs and public defender or prosecution programs.</p>
 
@@ -67,13 +67,13 @@
 			</div> <!-- cd-timeline-content -->
 		</div> <!-- cd-timeline-block -->
 
-    <div class="cd-timeline-block">
+    <div class="cd-timeline-block ">
       <div class="cd-timeline-img cd-child">
 				<i class="fa fa-user-o fa-2x" aria-hidden="true"></i>
 			</div>
 
-			<div class="cd-timeline-content">
-        <h2 id="section-1i0"><strong>Intercept 3: Courts and Jails </strong></h2>
+			<div class="cd-timeline-content color-i3">
+        <h2 id="section-1i0" class="light-heading"><strong>Intercept 3: Courts and Jails </strong></h2>
 
 <p>This intercept involves the jail or court and includes specialty court dockets and jail-based services.</p>
 
@@ -91,8 +91,8 @@
 				<i class="fa fa-user-o fa-2x" aria-hidden="true"></i>
 			</div>
 
-			<div class="cd-timeline-content">
-        <h2 id="section-1i0"><strong>Intercept 4: Institutions and Reentry </strong></h2>
+			<div class="cd-timeline-content color-i4">
+        <h2 id="section-1i0" class="light-heading"><strong>Intercept 4: Institutions and Reentry </strong></h2>
 
 <p>This intercept involves prison or reentry from prison or jail. This includes prison-based services for reentry and coordination of community-based services.
 
@@ -113,8 +113,8 @@
 				<i class="fa fa-user-o fa-2x" aria-hidden="true"></i>
 			</div>
 
-			<div class="cd-timeline-content">
-        <h2 id="section-1i0"><strong>Intercept 5: Community Corrections </strong></h2>
+			<div class="cd-timeline-content color-i5">
+        <h2 id="section-1i0" class="light-heading"><strong>Intercept 5: Community Corrections </strong></h2>
 
 <p>This intercept involves probation and parole programs and services. This includes connecting individuals to appropriate community-based services and resources.</p>
 
@@ -206,4 +206,12 @@ export default {
 </script>
 
 <style lang="css">
+.light-heading {color: #333 !important;}
+.dark-heading {color: #fff !important}
+.color-i5 {background: #fff; color: #000}
+.color-i4 {background: #fff; color: #000}
+.color-i3 {background: #fff; color: #000}
+.color-i2 {background: #fff; color: #000}
+.color-i1 {background: #fff; color: #000}
+.color-i0 {background: #fff; color: #000}
 </style>
