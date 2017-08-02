@@ -36,102 +36,156 @@
 
 
 
-
-<h2 id="defining-evidence-based-practices14" class="intro-sub">Defining Evidence-Based Practices<a href="#fn14" id="fnref14" title="See footnote" class="webui-popover-trigger-main">14</a></h2>
-
-<p><strong>Not Evidence-Informed or Evidence-Based or Anecdotal</strong> <br>
-<strong><em class="muted">No Effect or Unknown Effect</em></strong> <br>
-There is little or no evidence, through the use of reliable, replicable, and generalizable research, indicating the programs achieve what they are intended to achieve. </p>
-
-<p><strong>Evidence-Informed</strong> <br>
-<strong><em class="muted">Promising</em></strong> <br>
-There is some evidence, through the use of reliable, replicable, and generalizable research, indicating the programs achieve what they are intended to achieve. </p>
-
-<p><strong>Evidence-Based</strong>  <br>
-<strong><em class="muted">Effective</em></strong> <br>
-There is strong evidence, through the use of reliable, replicable, and generalizable research, indicating the programs achieve what they are set out to achieve. </p>
+<div class="panel-group" id="accordioni99" role="tablist" aria-multiselectable="true" style="margin-top: 30px">
 
 
-<h3 id="evidence-based-risk-and-protective-factors" class="intro-sub"><strong>Evidence-Based Risk and Protective Factors</strong></h3>
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOnei99">
+            <h4 class="panel-title">
+      <a role="button" data-toggle="collapse" href="#collapseOnei99" aria-expanded="true" aria-controls="collapseOnei99">
+        Defining Evidence-Based Practices<span style="float: right;">&nbsp;&nbsp;<i class="fa fa-angle-double-down" style="font-weight: 900" aria-hidden="true"></i></span>
+      </a>
+    </h4>
+        </div>
+        <div id="collapseOnei99" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOnei99">
+            <div class="panel-body">
+                <!-- panel 1 start -->
 
-<p>Prevention of substance use requires an understanding of factors that may decrease the potential for substance use (protective factors) and factors that may put individuals at risk, or increase potential for substance use (risk factors). Evidence-informed prevention programs can target risk factors and enhance protective factors.<a href="#fn15" id="fnref15" title="See footnote" class="webui-popover-trigger-main">15</a>  There are five, evidence-based ecological domains that have been shown to be the most predictive of delinquency, including substance use: individual, family, peer, school, and community. </p>
 
-<div class="col-md-6 spacer30">
+                <h2 id="defining-evidence-based-practices14" class="intro-sub">Defining Evidence-Based Practices<a href="#fn14" id="fnref14" title="See footnote" class="webui-popover-trigger-main">14</a></h2>
 
-<h3 id="risk-factors-include16"><strong>Risk factors include:<a href="#fn16" id="fnref16" title="See footnote" class="webui-popover-trigger-main">16</a></strong></h3>
+                <p><strong>Not Evidence-Informed or Evidence-Based or Anecdotal</strong> <br>
+                <strong><em class="muted">No Effect or Unknown Effect</em></strong> <br>
+                There is little or no evidence, through the use of reliable, replicable, and generalizable research, indicating the programs achieve what they are intended to achieve. </p>
 
-<p><em>Individual/Peer</em></p>
+                <p><strong>Evidence-Informed</strong> <br>
+                <strong><em class="muted">Promising</em></strong> <br>
+                There is some evidence, through the use of reliable, replicable, and generalizable research, indicating the programs achieve what they are intended to achieve. </p>
 
-<ul>
-<li>Early initiation of substance use.</li>
-<li>Persistent and early problem behavior.*</li>
-<li>Rebelliousness.</li>
-<li>Favorable attitudes toward substance use.</li>
-<li>Peer substance use</li>
-<li>Genetic susceptibility to substance use.</li>
-</ul>
+                <p><strong>Evidence-Based</strong>  <br>
+                <strong><em class="muted">Effective</em></strong> <br>
+                There is strong evidence, through the use of reliable, replicable, and generalizable research, indicating the programs achieve what they are set out to achieve. </p>
 
-<p><em>Family</em></p>
 
-<ul>
-<li>Poor family management skills (expectations, supervision, monitoring, inappropriate punishment).</li>
-<li>Family conflict.</li>
-<li>Parental attitudes favorable toward substance use.</li>
-<li>Family history of substance misuse.</li>
-</ul>
+                <!-- panel 1 stop -->
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingTwoi99">
+            <h4 class="panel-title">
+      <a class="collapsed" role="button" data-toggle="collapse" href="#collapseTwoi99" aria-expanded="false" aria-controls="collapseTwo">
+        Evidence-Based Risk and Protective Factors<span style="float: right;">&nbsp;&nbsp;<i class="fa fa-angle-double-down" style="font-weight: 900" aria-hidden="true"></i></span>
+      </a>
+    </h4>
+        </div>
+        <div id="collapseTwoi99" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwoi99">
+            <div class="panel-body">
+                <!-- panel 2 start -->
 
-<p><em>School</em></p>
 
-<ul>
-<li>Late elementary school academic failure.</li>
-<li>Lack of commitment to school.</li>
-</ul>
+                <h3 id="evidence-based-risk-and-protective-factors" class="intro-sub"><strong>Evidence-Based Risk and Protective Factors</strong></h3>
 
-<p><em>Community</em></p>
+                <p>Prevention of substance use requires an understanding of factors that may decrease the potential for substance use (protective factors) and factors that may put individuals at risk, or increase potential for substance use (risk factors). Evidence-informed prevention programs can target risk factors and enhance protective factors.<a href="#fn15" id="fnref15" title="See footnote" class="webui-popover-trigger-main">15</a>  There are five, evidence-based ecological domains that have been shown to be the most predictive of delinquency, including substance use: individual, family, peer, school, and community. </p>
 
-<ul>
-<li>Low cost of alcohol.</li>
-<li>High availability of substances.</li>
-<li>Community laws/norms favorable toward substance use.</li>
-<li>Media portrayal of alcohol use.*</li>
-<li>Low level of neighborhood bonding/attachment.*</li>
-<li>Community disorganization (e.g. high population density, physical deterioration, high rates of adult crime).*</li>
-<li>Low socioeconomic status.*</li>
-<li>High rates of mobility within or between communities.*</li>
-</ul>
+                <div class="col-md-6 spacer30">
+
+                <h3 id="risk-factors-include16"><strong>Risk factors include:<a href="#fn16" id="fnref16" title="See footnote" class="webui-popover-trigger-main">16</a></strong></h3>
+
+                <p><em>Individual/Peer</em></p>
+
+                <ul>
+                <li>Early initiation of substance use.</li>
+                <li>Persistent and early problem behavior.*</li>
+                <li>Rebelliousness.</li>
+                <li>Favorable attitudes toward substance use.</li>
+                <li>Peer substance use</li>
+                <li>Genetic susceptibility to substance use.</li>
+                </ul>
+
+                <p><em>Family</em></p>
+
+                <ul>
+                <li>Poor family management skills (expectations, supervision, monitoring, inappropriate punishment).</li>
+                <li>Family conflict.</li>
+                <li>Parental attitudes favorable toward substance use.</li>
+                <li>Family history of substance misuse.</li>
+                </ul>
+
+                <p><em>School</em></p>
+
+                <ul>
+                <li>Late elementary school academic failure.</li>
+                <li>Lack of commitment to school.</li>
+                </ul>
+
+                <p><em>Community</em></p>
+
+                <ul>
+                <li>Low cost of alcohol.</li>
+                <li>High availability of substances.</li>
+                <li>Community laws/norms favorable toward substance use.</li>
+                <li>Media portrayal of alcohol use.*</li>
+                <li>Low level of neighborhood bonding/attachment.*</li>
+                <li>Community disorganization (e.g. high population density, physical deterioration, high rates of adult crime).*</li>
+                <li>Low socioeconomic status.*</li>
+                <li>High rates of mobility within or between communities.*</li>
+                </ul>
+                </div>
+
+                <div class="col-md-6 spacer30">
+                <h3 id="protective-factors-include17"><strong>Protective factors include:<a href="#fn17" id="fnref17" title="See footnote" class="webui-popover-trigger-main">17</a></strong></h3>
+
+                <p><em>Individual/peer</em></p>
+
+                <ul>
+                <li>Social, emotional, behavioral, cognitive, and moral competence; interpersonal skills.</li>
+                <li>Self-efficacy.</li>
+                <li>Spirituality.</li>
+                <li>Resiliency.</li>
+                </ul>
+
+                <p><em>Family, school, and community</em></p>
+
+                <ul>
+                <li>Opportunities for positive social involvement.</li>
+                <li>Recognition for positive behavior (reinforcements).</li>
+                <li>Bonding (attachment or commitment).</li>
+                <li>Healthy beliefs and standards for behavior.</li>
+                <li>Marriage or committed relationship.**</li>
+                </ul>
+
+
+
+                <h6 id="denotes-factor-related-to-adolescent-substance-use">*denotes factor related to adolescent substance use.</h6>
+
+
+
+                <h6 id="denotes-factor-related-to-young-adult-substance-use">*denotes factor related to young adult substance use.</h6>
+
+                </div>
+
+
+                <!-- panel 2 stop -->
+            </div>
+        </div>
+    </div>
+
+
+
+
+
 </div>
 
-<div class="col-md-6 spacer30">
-<h3 id="protective-factors-include17"><strong>Protective factors include:<a href="#fn17" id="fnref17" title="See footnote" class="webui-popover-trigger-main">17</a></strong></h3>
-
-<p><em>Individual/peer</em></p>
-
-<ul>
-<li>Social, emotional, behavioral, cognitive, and moral competence; interpersonal skills.</li>
-<li>Self-efficacy.</li>
-<li>Spirituality.</li>
-<li>Resiliency.</li>
-</ul>
-
-<p><em>Family, school, and community</em></p>
-
-<ul>
-<li>Opportunities for positive social involvement.</li>
-<li>Recognition for positive behavior (reinforcements).</li>
-<li>Bonding (attachment or commitment).</li>
-<li>Healthy beliefs and standards for behavior.</li>
-<li>Marriage or committed relationship.**</li>
-</ul>
 
 
 
-<h6 id="denotes-factor-related-to-adolescent-substance-use">*denotes factor related to adolescent substance use.</h6>
 
 
 
-<h6 id="denotes-factor-related-to-young-adult-substance-use">*denotes factor related to young adult substance use.</h6>
 
-</div>
+
+
 
 
           <!-- content end -->
@@ -162,7 +216,7 @@ export default {
 
 <style lang="css" scoped>
 #hero{
-  background-image:url(/static/img/hero3.jpg);
+  background-image:url(/static/img/hero4.jpg);
   background-size:cover;
   position:relative;
   height:80vh;

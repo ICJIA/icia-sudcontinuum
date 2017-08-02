@@ -3,13 +3,13 @@
   <section id="section-1">
 	<div class="text-center">
 		<div class="section-title">
-			Intercepts
+			INTERVENTION AT CRIMINAL JUSTICE INTERCEPTS
 		</div>
 		<div style="margin-bottom: 50px;"><i class="fa fa-chevron-down fa-3x" style="color: #ccc; margin-top: 10px;" aria-hidden="true"></i></div>
 	</div>
 	<div id="cd-timeline-1" class="cd-container">
 		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-child">
+			<div class="cd-timeline-img cd-intercept0">
 				<i class="fa fa-user-o fa-2x" aria-hidden="true"></i>
 			</div> <!-- cd-timeline-img -->
 
@@ -28,7 +28,7 @@
 		</div> <!-- cd-timeline-block -->
 
     <div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-child">
+			<div class="cd-timeline-img cd-intercept1">
 				<i class="fa fa-user-o fa-2x" aria-hidden="true"></i>
 			</div> <!-- cd-timeline-img -->
 
@@ -49,7 +49,7 @@
 		</div> <!-- cd-timeline-block -->
 
     <div class="cd-timeline-block">
-      <div class="cd-timeline-img cd-child">
+      <div class="cd-timeline-img cd-intercept2">
 				<i class="fa fa-user-o fa-2x" aria-hidden="true"></i>
 			</div>
 
@@ -68,7 +68,7 @@
 		</div> <!-- cd-timeline-block -->
 
     <div class="cd-timeline-block ">
-      <div class="cd-timeline-img cd-child">
+      <div class="cd-timeline-img cd-intercept3">
 				<i class="fa fa-user-o fa-2x" aria-hidden="true"></i>
 			</div>
 
@@ -87,7 +87,7 @@
 		</div> <!-- cd-timeline-block -->
 
     <div class="cd-timeline-block">
-      <div class="cd-timeline-img cd-child">
+      <div class="cd-timeline-img cd-intercept4">
 				<i class="fa fa-user-o fa-2x" aria-hidden="true"></i>
 			</div>
 
@@ -109,7 +109,7 @@
 
 
     <div class="cd-timeline-block">
-      <div class="cd-timeline-img cd-child">
+      <div class="cd-timeline-img cd-intercept5">
 				<i class="fa fa-user-o fa-2x" aria-hidden="true"></i>
 			</div>
 
@@ -208,10 +208,5 @@ export default {
 <style lang="css">
 .light-heading {color: #333 !important;}
 .dark-heading {color: #fff !important}
-.color-i5 {background: #fff; color: #000}
-.color-i4 {background: #fff; color: #000}
-.color-i3 {background: #fff; color: #000}
-.color-i2 {background: #fff; color: #000}
-.color-i1 {background: #fff; color: #000}
-.color-i0 {background: #fff; color: #000}
+
 </style>

@@ -14,7 +14,7 @@
       </div>
       <div class="modal-footer">
           <!-- <a class="btn btn-primary" :href="pdf" :download="parseFilename(pdf)"><i class="fa fa-file-pdf-o" aria-hidden="true">&nbsp;&nbsp;</i>Download PDF</a> -->
-        <button type="button" class="btn btn-primary btn-modal" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default btn-modal" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -63,6 +63,6 @@ button.close {color: #000 !important}
 .modal-header {background: #aaa; color: #fff}
 .modal-title {font-family: 'Lato', sans-serif; font-weight: 700; text-transform: uppercase;}
 button.btn:hover {cursor: pointer; cursor: hand;}
-
+.btn-default {color: #000 !important; font-weight: 900; text-transform: uppercase}
 
 </style>

@@ -150,7 +150,7 @@ header {
 	}
 
 	&.cd-child {
-		background: $color-2;
+		background: $dot-color;
 	}
 
 	&.cd-location {
@@ -163,6 +163,30 @@ header {
 
 	&.cd-bullhorn {
 		background: $color-5;
+	}
+
+	&.cd-intercept0 {
+		background: $intercept-2;
+	}
+
+	&.cd-intercept1 {
+		background: $intercept-2;
+	}
+
+	&.cd-intercept2 {
+		background: $intercept-2;
+	}
+
+	&.cd-intercept3 {
+		background: $intercept-2;
+	}
+
+	&.cd-intercept4 {
+		background: $intercept-2;
+	}
+
+	&.cd-intercept5 {
+		background: $intercept-2;
 	}
 
 	@include MQ(L) {
@@ -393,3 +417,12 @@ button.cd-container-read-more {margin-top: 20px !important;}
 		@include transform(translateX(0));
 	}
 }
+
+
+#modal0 .modal-header {background: $intercept-2 !important}
+#modal1 .modal-header {background: $intercept-2 !important}
+#modal2 .modal-header {background: $intercept-2 !important}
+#modal3 .modal-header {background: $intercept-2 !important}
+#modal4 .modal-header {background: $intercept-2 !important}
+#modal5 .modal-header {background: $intercept-2 !important}
+.panel-heading {background: $intercept-2 !important; color: #fff !important}

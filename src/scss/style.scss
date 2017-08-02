@@ -42,10 +42,13 @@ body {
 }
 
 a {
-	color: $link;
-	text-decoration: none;
+	color: #888;
+	text-decoration: underline !important;
 	font-family: $body-font;
 }
+
+.panel-title a {text-decoration: none !important;}
+.panel-title a:hover {color: #bbb}
 
 a {font-weight: 700;}
 a {
@@ -63,7 +66,8 @@ a:visited {
 	-moz-outline-style: none !important;
 }
 
-
+ul.additional-resources a {color: #bbb}
+ul.additional-resources a:hover {color: #888}
 
 
 
