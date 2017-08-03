@@ -47,8 +47,6 @@ a {
 	font-family: $body-font;
 }
 
-.panel-title a {text-decoration: none !important;}
-.panel-title a:hover {color: #ccc}
 
 a {font-weight: 700;}
 a {
@@ -65,6 +63,14 @@ a:visited {
 	border:none !important;
 	-moz-outline-style: none !important;
 }
+
+.panel-title a {text-decoration: none !important;}
+.panel-title a:hover {color: #ccc}
+a.navbar-brand {text-decoration: none !important;}
+a.dropdown-toggle {text-decoration: none !important}
+a.scroll {text-decoration: none !important}
+
+
 
 ul.additional-resources a {color: #bbb}
 ul.additional-resources a:hover {color: #888}

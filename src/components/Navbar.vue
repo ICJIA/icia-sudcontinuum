@@ -37,7 +37,7 @@
                 <li><a href="#section-additional-resources" class="scroll">Additional Resources</a></li>
                 <li><a href="#section-references" class="scroll">References</a></li>
                 <li role="separator" class="divider"></li>
-                <li><a href="http://www.icjia.state.il.us" target="_blank" style="color: #888">ICJIA Website&nbsp;&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                <li><a href="http://www.icjia.state.il.us" target="_blank" class="scroll" style="color: #888">ICJIA Website&nbsp;&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
               </ul>
             </li>
 

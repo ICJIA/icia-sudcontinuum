@@ -5,15 +5,10 @@
     <div id="outdated"></div>
 
 <navbar />
-<!--
-<transition name="fade">
-                      <router-view class="view"></router-view>
-                      </transition>
-
-<my-footer /> -->
 
 
-             <router-view class="view"></router-view>
+
+  <router-view class="view"></router-view>
 
 
 <my-footer />

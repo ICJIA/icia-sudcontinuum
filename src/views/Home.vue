@@ -28,6 +28,7 @@
     import ThingsToConsider from '@/components/ThingsToConsider'
     import AdditionalResources from '@/components/AdditionalResources'
     import References from '@/components/References'
+    import metaInfo from '@/meta'
     // import moment from 'moment'
 
 
@@ -37,16 +38,8 @@
 
     export default {
         name: 'Home',
-
-        metaInfo: {
-          title: title,
-          meta: [
-            { name: 'description', content: stripTags(description) }
-          ]
-        },
-
+        metaInfo,
         mounted() {
-
           $(function() {
 
 
