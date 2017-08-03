@@ -216,7 +216,7 @@ export default {
 
 <style lang="css" scoped>
 #hero{
-  background-image:url(/static/img/hero4.jpg);
+  background-image:url(/static/img/hero5.jpg);
   background-size:cover;
   position:relative;
   height:80vh;
