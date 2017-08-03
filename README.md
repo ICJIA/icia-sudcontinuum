@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ICJIA/icjia-sudcontinuum.svg?branch=master)](https://travis-ci.org/ICJIA/icjia-sudcontinuum)
+
 # Promising Practices In Criminal Justice: Assisting Individuals with Substance Use Disorders
 
 > There are currently an estimated 2.3 million individuals in U.S. prisons and jails, with 1.5 million meeting DSM-IV medical criteria for addiction (NIDA, 2014; CASA, 2010). Further, approximately 70 percent of state and 64 percent of federal inmates reported regular drug use prior to imprisonment; about 25 percent of violent offenders in state prisons committed their offenses under the influence of drugs (NIDA, 2014).
@@ -40,5 +42,3 @@ npm run build --report
 - [https://sudcontinuum.icjia.cloud/](https://sudcontinuum.icjia.cloud/)
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ICJIA/icia-sudcontinuum)
-
-[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/ICJIA/icia-sudcontinuum)
