@@ -31,7 +31,7 @@
             <li class="dropdown" style="margin-right: 20px">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="text-transform: uppercase;">Contents<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#page-top" class="scroll">Introduction</a></li>
+                <li><a href="#app" class="scroll">Introduction</a></li>
                 <li><a href="#section-1" class="scroll">Intercepts</a></li>
                 <li><a href="#section-things-to-consider" class="scroll">Things to Consider</a></li>
                 <li><a href="#section-additional-resources" class="scroll">Additional Resources</a></li>

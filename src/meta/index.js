@@ -22,7 +22,7 @@ module.exports = {
     {rel: "icon", type: "image/png", sizes: "16x16",  href: '/static/icons/favicon-16x16.png?v=1440170181'}
     ],
     // if no subcomponents specify a metaInfo.title, this title will be used
-    title: 'ICJIA | Substance Abuse Disorder Continuum',
+    title: 'ICJIA | Reducing Substance Use Disorders and Related Offending',
     // all titles will be injected into this template
-    titleTemplate: 'ICJIA | %s'
+    titleTemplate: '%s'
   }

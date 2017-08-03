@@ -1,6 +1,6 @@
 <template>
 
-<div id="page-top">
+<div id="app">
 
     <div id="outdated"></div>
 
