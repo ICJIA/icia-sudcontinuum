@@ -177,7 +177,10 @@
 
 </div>
 
+<div class="well" style="margin-top: 45px">
 
+<p><strong>For additional information and a PDF download, please see the <a href="http://www.icjia.state.il.us/articles/reducing-substance-use-disorders-and-related-offending-a-continuum-of-evidence-informed-practices-in-the-criminal-justice-system">companion article to this web presentation recently published by the Illinois Criminal Justice Information Authority</a>.</strong></p>
+</div>
 
 
 
